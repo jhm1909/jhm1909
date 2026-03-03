@@ -1,0 +1,147 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 100" width="200" height="100">
+    <style>
+        .cat {
+            fill: #fff;
+        }
+
+        .spot1 {
+            fill: #2c2c2c;
+        }
+
+        .spot2 {
+            fill: #f4a460;
+        }
+
+        .nose {
+            fill: #ff69b4;
+        }
+
+        .bowl {
+            fill: #4169E1;
+        }
+
+        .fish {
+            fill: #ffa500;
+        }
+
+        @keyframes nom {
+
+            0%,
+            100% {
+                transform: translateY(0) rotate(0deg);
+            }
+
+            15% {
+                transform: translateY(4px) rotate(5deg);
+            }
+
+            30% {
+                transform: translateY(0) rotate(0deg);
+            }
+
+            45% {
+                transform: translateY(4px) rotate(-3deg);
+            }
+
+            60% {
+                transform: translateY(0) rotate(0deg);
+            }
+        }
+
+        @keyframes tail-content {
+
+            0%,
+            100% {
+                transform: rotate(0deg);
+            }
+
+            50% {
+                transform: rotate(12deg);
+            }
+        }
+
+        @keyframes heart {
+
+            0%,
+            100% {
+                opacity: 0;
+                transform: translateY(0) scale(0.5);
+            }
+
+            50% {
+                opacity: 1;
+                transform: translateY(-10px) scale(1);
+            }
+        }
+
+        .cat-eating {
+            animation: nom 2s ease-in-out infinite;
+            transform-origin: 120px 65px;
+        }
+
+        .tail {
+            animation: tail-content 2s ease-in-out infinite;
+            transform-origin: 50px 55px;
+        }
+
+        .heart1 {
+            animation: heart 2s ease-out infinite;
+        }
+
+        .heart2 {
+            animation: heart 2s ease-out 0.7s infinite;
+        }
+    </style>
+    <!-- Hearts -->
+    <text x="140" y="25" font-size="12" class="heart1">❤️</text>
+    <text x="155" y="20" font-size="10" class="heart2">💕</text>
+    <!-- Food bowl -->
+    <ellipse cx="145" cy="88" rx="18" ry="6" class="bowl" />
+    <ellipse cx="145" cy="85" rx="16" ry="5" fill="#5B9BD5" />
+    <ellipse cx="145" cy="84" rx="13" ry="3.5" fill="#8B4513" />
+    <!-- Fish in bowl -->
+    <g transform="translate(140, 82)">
+        <ellipse cx="0" cy="0" rx="5" ry="2.5" class="fish" />
+        <polygon points="5,-3 8,0 5,3" class="fish" />
+        <circle cx="-2" cy="-0.5" r="0.5" fill="#111" />
+    </g>
+    <!-- Cat body -->
+    <g class="cat-eating">
+        <!-- Tail -->
+        <g class="tail">
+            <path d="M 50 55 Q 25 35, 20 50 Q 18 58, 24 53" fill="none" stroke="#fff" stroke-width="6"
+                stroke-linecap="round" />
+            <path d="M 24 53 Q 22 50, 25 50" fill="none" stroke="#2c2c2c" stroke-width="6" stroke-linecap="round" />
+        </g>
+        <!-- Body -->
+        <ellipse cx="90" cy="65" rx="40" ry="20" class="cat" />
+        <!-- Spots -->
+        <ellipse cx="75" cy="58" rx="10" ry="8" class="spot1" />
+        <ellipse cx="100" cy="60" rx="8" ry="6" class="spot2" />
+        <!-- Back legs -->
+        <ellipse cx="58" cy="82" rx="8" ry="5" class="cat" />
+        <!-- Head near bowl -->
+        <circle cx="128" cy="62" r="16" class="cat" />
+        <!-- Head spot -->
+        <ellipse cx="122" cy="55" rx="8" ry="6" class="spot1" />
+        <!-- Ears -->
+        <polygon points="116,50 119,36 124,48" class="cat" />
+        <polygon points="132,48 135,36 140,50" class="cat" />
+        <polygon points="118,49 120,39 122,48" fill="#ff69b4" opacity="0.4" />
+        <polygon points="133,48 135,39 138,49" fill="#ff69b4" opacity="0.4" />
+        <!-- Ear spot -->
+        <polygon points="116,50 119,38 122,49" class="spot1" opacity="0.7" />
+        <!-- Closed happy eyes -->
+        <path d="M 121 60 Q 124 57, 127 60" fill="none" stroke="#333" stroke-width="1.5" stroke-linecap="round" />
+        <path d="M 131 60 Q 134 57, 137 60" fill="none" stroke="#333" stroke-width="1.5" stroke-linecap="round" />
+        <!-- Nose near food -->
+        <ellipse cx="130" cy="65" rx="2" ry="1.5" class="nose" />
+        <!-- Whiskers -->
+        <line x1="112" y1="63" x2="123" y2="64" fill="none" stroke="#ccc" stroke-width="0.6" />
+        <line x1="113" y1="67" x2="123" y2="66" fill="none" stroke="#ccc" stroke-width="0.6" />
+        <line x1="137" y1="64" x2="148" y2="63" fill="none" stroke="#ccc" stroke-width="0.6" />
+        <!-- Front paws near bowl -->
+        <ellipse cx="120" cy="80" rx="6" ry="4" class="cat" />
+        <ellipse cx="135" cy="82" rx="6" ry="4" class="cat" />
+    </g>
+</svg>

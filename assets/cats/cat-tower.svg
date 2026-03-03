@@ -1,0 +1,198 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 180 160" width="180" height="160">
+    <style>
+        .tower-base {
+            fill: #d2b48c;
+            stroke: #8B7355;
+            stroke-width: 1;
+        }
+
+        .tower-post {
+            fill: #c4a882;
+        }
+
+        .rope {
+            fill: #daa520;
+        }
+
+        .platform {
+            fill: #d2b48c;
+            stroke: #8B7355;
+            stroke-width: 1;
+        }
+
+        .cat1 {
+            fill: #f4a460;
+        }
+
+        .cat2 {
+            fill: #696969;
+        }
+
+        .nose {
+            fill: #ff69b4;
+        }
+
+        .toy-ball {
+            fill: #ff6b6b;
+        }
+
+        .toy-feather {
+            fill: #bb86fc;
+        }
+
+        @keyframes dangle {
+
+            0%,
+            100% {
+                transform: rotate(-5deg);
+            }
+
+            50% {
+                transform: rotate(5deg);
+            }
+        }
+
+        @keyframes tail1 {
+
+            0%,
+            100% {
+                transform: rotate(0deg);
+            }
+
+            50% {
+                transform: rotate(-10deg);
+            }
+        }
+
+        @keyframes tail2 {
+
+            0%,
+            100% {
+                transform: rotate(0deg);
+            }
+
+            50% {
+                transform: rotate(8deg);
+            }
+        }
+
+        @keyframes breathe {
+
+            0%,
+            100% {
+                transform: scaleY(1);
+            }
+
+            50% {
+                transform: scaleY(0.96);
+            }
+        }
+
+        .dangle-toy {
+            animation: dangle 2s ease-in-out infinite;
+            transform-origin: 150px 30px;
+        }
+
+        .tail-1 {
+            animation: tail1 3s ease-in-out infinite;
+            transform-origin: 70px 62px;
+        }
+
+        .tail-2 {
+            animation: tail2 2.5s ease-in-out infinite;
+            transform-origin: 115px 110px;
+        }
+
+        .cat2-body {
+            animation: breathe 4s ease-in-out infinite;
+            transform-origin: center bottom;
+        }
+    </style>
+    <!-- Cat Tower Structure -->
+    <!-- Main post -->
+    <rect x="82" y="20" width="16" height="140" rx="3" class="tower-post" />
+    <!-- Rope wrapping -->
+    <line x1="82" y1="70" x2="98" y2="73" stroke="#daa520" stroke-width="2" />
+    <line x1="82" y1="75" x2="98" y2="78" stroke="#daa520" stroke-width="2" />
+    <line x1="82" y1="80" x2="98" y2="83" stroke="#daa520" stroke-width="2" />
+    <line x1="82" y1="85" x2="98" y2="88" stroke="#daa520" stroke-width="2" />
+    <line x1="82" y1="120" x2="98" y2="123" stroke="#daa520" stroke-width="2" />
+    <line x1="82" y1="125" x2="98" y2="128" stroke="#daa520" stroke-width="2" />
+    <!-- Top platform -->
+    <rect x="55" y="20" width="70" height="8" rx="4" class="platform" />
+    <!-- Middle platform -->
+    <rect x="60" y="95" width="60" height="8" rx="4" class="platform" />
+    <!-- Base -->
+    <rect x="50" y="152" width="80" height="8" rx="4" class="platform" />
+    <!-- Dangling toy -->
+    <g class="dangle-toy">
+        <line x1="150" y1="30" x2="150" y2="55" stroke="#999" stroke-width="1" />
+        <circle cx="150" cy="58" r="4" class="toy-ball" />
+        <path d="M 148 54 Q 152 50, 156 54" fill="none" stroke="#bb86fc" stroke-width="1.5" />
+        <path d="M 146 52 Q 150 47, 154 52" class="toy-feather" fill-opacity="0.7" />
+    </g>
+    <!-- Extending arm for toy -->
+    <line x1="125" y1="24" x2="150" y2="30" stroke="#8B7355" stroke-width="3" stroke-linecap="round" />
+    <!-- Cat 1 (orange) - on top platform, lounging -->
+    <g>
+        <g class="tail-1">
+            <path d="M 70 62 Q 50 50, 45 55 Q 42 60, 48 58" fill="none" stroke="#f4a460" stroke-width="5"
+                stroke-linecap="round" />
+        </g>
+        <ellipse cx="90" cy="15" rx="28" ry="10" class="cat1" />
+        <ellipse cx="90" cy="16" rx="18" ry="6" fill="#ffdab9" />
+        <!-- Head drooping over edge -->
+        <circle cx="68" cy="18" r="10" class="cat1" />
+        <!-- Ears -->
+        <polygon points="60,12 62,3 66,11" class="cat1" />
+        <polygon points="68,10 72,2 75,12" class="cat1" />
+        <polygon points="62,11 63,5 65,11" fill="#ff69b4" opacity="0.4" />
+        <polygon points="69,10 72,4 73,11" fill="#ff69b4" opacity="0.4" />
+        <!-- Sleepy eyes -->
+        <path d="M 63 17 Q 65 15, 67 17" fill="none" stroke="#333" stroke-width="1.2" stroke-linecap="round" />
+        <path d="M 70 16 Q 72 14, 74 16" fill="none" stroke="#333" stroke-width="1.2" stroke-linecap="round" />
+        <!-- Nose -->
+        <ellipse cx="69" cy="20" rx="1.5" ry="1" class="nose" />
+        <!-- Paw hanging -->
+        <ellipse cx="60" cy="26" rx="4" ry="3" class="cat1" />
+        <circle cx="59" cy="27" r="1" fill="#ff69b4" opacity="0.4" />
+    </g>
+    <!-- Cat 2 (gray) - on middle platform, sitting alert -->
+    <g class="cat2-body">
+        <g class="tail-2">
+            <path d="M 115 110 Q 135 95, 138 105 Q 140 112, 135 108" fill="none" stroke="#696969" stroke-width="5"
+                stroke-linecap="round" />
+        </g>
+        <ellipse cx="95" cy="88" rx="15" ry="12" class="cat2" />
+        <ellipse cx="95" cy="90" rx="10" ry="7" fill="#888" />
+        <!-- Head -->
+        <circle cx="95" cy="72" r="11" class="cat2" />
+        <!-- Ears -->
+        <polygon points="86,64 88,54 92,63" class="cat2" />
+        <polygon points="98,63 102,54 104,64" class="cat2" />
+        <polygon points="88,63 89,56 91,63" fill="#ff69b4" opacity="0.4" />
+        <polygon points="99,63 101,56 103,63" fill="#ff69b4" opacity="0.4" />
+        <!-- Eyes looking up at toy -->
+        <circle cx="91" cy="71" r="3" fill="#ffd700" />
+        <circle cx="99" cy="71" r="3" fill="#ffd700" />
+        <circle cx="92" cy="70" r="1.8" fill="#111" />
+        <circle cx="100" cy="70" r="1.8" fill="#111" />
+        <circle cx="91" cy="69.5" r="0.7" fill="white" />
+        <circle cx="99" cy="69.5" r="0.7" fill="white" />
+        <!-- Nose -->
+        <ellipse cx="95" cy="75" rx="1.5" ry="1" class="nose" />
+        <!-- Whiskers -->
+        <line x1="82" y1="74" x2="90" y2="74" fill="none" stroke="#aaa" stroke-width="0.5" />
+        <line x1="100" y1="74" x2="108" y2="74" fill="none" stroke="#aaa" stroke-width="0.5" />
+        <!-- Paws -->
+        <ellipse cx="88" cy="97" rx="5" ry="3" class="cat2" />
+        <ellipse cx="102" cy="97" rx="5" ry="3" class="cat2" />
+    </g>
+    <!-- Small mouse toy on ground -->
+    <ellipse cx="45" cy="155" rx="6" ry="4" fill="#999" />
+    <circle cx="40" cy="153" r="2" fill="#aaa" />
+    <circle cx="39" cy="152" r="0.8" fill="#333" />
+    <path d="M 51 155 Q 56 150, 58 155" fill="none" stroke="#999" stroke-width="0.8" />
+    <!-- Ears on mouse -->
+    <ellipse cx="39" cy="150" rx="2" ry="2.5" fill="#ccc" />
+</svg>

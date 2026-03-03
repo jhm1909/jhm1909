@@ -1,0 +1,243 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 250 120" width="250" height="120">
+    <style>
+        .cat {
+            fill: #f5deb3;
+        }
+
+        .cat-stripe {
+            fill: #d2691e;
+            opacity: 0.5;
+        }
+
+        .nose {
+            fill: #ff69b4;
+        }
+
+        .eye {
+            fill: #228B22;
+        }
+
+        .butterfly {
+            fill: #bb86fc;
+        }
+
+        .butterfly2 {
+            fill: #ff69b4;
+        }
+
+        @keyframes run-body {
+
+            0%,
+            100% {
+                transform: translateY(0);
+            }
+
+            25% {
+                transform: translateY(-3px);
+            }
+
+            75% {
+                transform: translateY(2px);
+            }
+        }
+
+        @keyframes front-leg {
+            0% {
+                transform: rotate(-20deg);
+            }
+
+            50% {
+                transform: rotate(20deg);
+            }
+
+            100% {
+                transform: rotate(-20deg);
+            }
+        }
+
+        @keyframes back-leg {
+            0% {
+                transform: rotate(20deg);
+            }
+
+            50% {
+                transform: rotate(-20deg);
+            }
+
+            100% {
+                transform: rotate(20deg);
+            }
+        }
+
+        @keyframes butterfly-fly {
+            0% {
+                transform: translate(0, 0);
+            }
+
+            25% {
+                transform: translate(-5px, -8px);
+            }
+
+            50% {
+                transform: translate(3px, -3px);
+            }
+
+            75% {
+                transform: translate(-3px, -10px);
+            }
+
+            100% {
+                transform: translate(0, 0);
+            }
+        }
+
+        @keyframes wing-flap {
+
+            0%,
+            100% {
+                transform: scaleX(1);
+            }
+
+            50% {
+                transform: scaleX(0.3);
+            }
+        }
+
+        @keyframes tail-run {
+
+            0%,
+            100% {
+                transform: rotate(-10deg);
+            }
+
+            50% {
+                transform: rotate(15deg);
+            }
+        }
+
+        .cat-group {
+            animation: run-body 0.6s ease-in-out infinite;
+        }
+
+        .front-l {
+            animation: front-leg 0.6s ease-in-out infinite;
+            transform-origin: 130px 85px;
+        }
+
+        .front-r {
+            animation: front-leg 0.6s ease-in-out 0.3s infinite;
+            transform-origin: 120px 85px;
+        }
+
+        .back-l {
+            animation: back-leg 0.6s ease-in-out infinite;
+            transform-origin: 70px 85px;
+        }
+
+        .back-r {
+            animation: back-leg 0.6s ease-in-out 0.3s infinite;
+            transform-origin: 80px 85px;
+        }
+
+        .butterfly-g {
+            animation: butterfly-fly 3s ease-in-out infinite;
+        }
+
+        .wing-l {
+            animation: wing-flap 0.3s ease-in-out infinite;
+            transform-origin: right;
+        }
+
+        .wing-r {
+            animation: wing-flap 0.3s ease-in-out infinite;
+            transform-origin: left;
+        }
+
+        .tail {
+            animation: tail-run 0.6s ease-in-out infinite;
+            transform-origin: 50px 70px;
+        }
+    </style>
+    <!-- Ground -->
+    <path d="M 0 110 Q 30 106, 60 110 Q 90 106, 120 110 Q 150 106, 180 110 Q 210 106, 250 110" fill="none"
+        stroke="#228B22" stroke-width="2" />
+    <!-- Small grass tufts -->
+    <line x1="20" y1="110" x2="18" y2="104" stroke="#228B22" stroke-width="1.5" />
+    <line x1="22" y1="110" x2="24" y2="105" stroke="#32CD32" stroke-width="1.5" />
+    <line x1="180" y1="110" x2="178" y2="105" stroke="#228B22" stroke-width="1.5" />
+    <line x1="182" y1="110" x2="184" y2="104" stroke="#32CD32" stroke-width="1.5" />
+    <!-- Small flower -->
+    <circle cx="210" cy="105" r="3" fill="#ff69b4" />
+    <circle cx="210" cy="105" r="1" fill="#ffeb3b" />
+    <line x1="210" y1="108" x2="210" y2="115" stroke="#228B22" stroke-width="1" />
+    <!-- Cat running -->
+    <g class="cat-group">
+        <!-- Tail -->
+        <g class="tail">
+            <path d="M 50 70 Q 30 50, 25 40 Q 22 35, 28 33" fill="none" stroke="#f5deb3" stroke-width="6"
+                stroke-linecap="round" />
+        </g>
+        <!-- Body -->
+        <ellipse cx="95" cy="72" rx="45" ry="18" class="cat" />
+        <!-- Stripes on body -->
+        <path d="M 80 58 Q 82 62, 78 65" fill="none" stroke="#d2691e" stroke-width="1.5" opacity="0.5" />
+        <path d="M 90 57 Q 92 61, 88 64" fill="none" stroke="#d2691e" stroke-width="1.5" opacity="0.5" />
+        <path d="M 100 57 Q 102 61, 98 64" fill="none" stroke="#d2691e" stroke-width="1.5" opacity="0.5" />
+        <!-- Back legs -->
+        <g class="back-l">
+            <line x1="70" y1="85" x2="65" y2="105" stroke="#f5deb3" stroke-width="7" stroke-linecap="round" />
+            <ellipse cx="64" cy="107" rx="5" ry="3" class="cat" />
+        </g>
+        <g class="back-r">
+            <line x1="80" y1="85" x2="75" y2="105" stroke="#f5deb3" stroke-width="7" stroke-linecap="round" />
+            <ellipse cx="74" cy="107" rx="5" ry="3" class="cat" />
+        </g>
+        <!-- Front legs -->
+        <g class="front-l">
+            <line x1="130" y1="85" x2="135" y2="105" stroke="#f5deb3" stroke-width="7" stroke-linecap="round" />
+            <ellipse cx="136" cy="107" rx="5" ry="3" class="cat" />
+        </g>
+        <g class="front-r">
+            <line x1="120" y1="85" x2="125" y2="105" stroke="#f5deb3" stroke-width="7" stroke-linecap="round" />
+            <ellipse cx="126" cy="107" rx="5" ry="3" class="cat" />
+        </g>
+        <!-- Head -->
+        <circle cx="140" cy="58" r="18" class="cat" />
+        <!-- Ears -->
+        <polygon points="128,44 132,28 138,42" class="cat" />
+        <polygon points="142,42 148,28 152,44" class="cat" />
+        <polygon points="130,43 133,31 136,42" fill="#ff69b4" opacity="0.4" />
+        <polygon points="144,42 147,31 150,43" fill="#ff69b4" opacity="0.4" />
+        <!-- Eyes excited -->
+        <circle cx="134" cy="55" r="4" class="eye" />
+        <circle cx="146" cy="55" r="4" class="eye" />
+        <circle cx="135" cy="55" r="2.2" fill="#111" />
+        <circle cx="147" cy="55" r="2.2" fill="#111" />
+        <circle cx="133.5" cy="53.5" r="1" fill="white" />
+        <circle cx="145.5" cy="53.5" r="1" fill="white" />
+        <!-- Nose -->
+        <ellipse cx="140" cy="62" rx="2" ry="1.5" class="nose" />
+        <!-- Open mouth (excited) -->
+        <path d="M 140 63.5 Q 137 66, 135 65" fill="none" stroke="#555" stroke-width="0.8" />
+        <path d="M 140 63.5 Q 143 66, 145 65" fill="none" stroke="#555" stroke-width="0.8" />
+        <ellipse cx="140" cy="65" rx="3" ry="2" fill="#ff6b6b" opacity="0.3" />
+        <!-- Whiskers -->
+        <line x1="120" y1="60" x2="132" y2="61" fill="none" stroke="#ccc" stroke-width="0.6" />
+        <line x1="121" y1="64" x2="132" y2="63" fill="none" stroke="#ccc" stroke-width="0.6" />
+        <line x1="148" y1="61" x2="160" y2="60" fill="none" stroke="#ccc" stroke-width="0.6" />
+        <line x1="148" y1="63" x2="160" y2="64" fill="none" stroke="#ccc" stroke-width="0.6" />
+    </g>
+    <!-- Butterfly -->
+    <g class="butterfly-g" transform="translate(175, 30)">
+        <ellipse cx="0" cy="0" rx="1.5" ry="4" fill="#333" />
+        <ellipse class="wing-l" cx="-6" cy="-2" rx="6" ry="4" class="butterfly" />
+        <ellipse class="wing-r" cx="6" cy="-2" rx="6" ry="4" class="butterfly2" />
+        <ellipse class="wing-l" cx="-4" cy="3" rx="4" ry="3" class="butterfly2" opacity="0.7" />
+        <ellipse class="wing-r" cx="4" cy="3" rx="4" ry="3" class="butterfly" opacity="0.7" />
+        <!-- Antennae -->
+        <line x1="0" y1="-4" x2="-3" y2="-8" stroke="#333" stroke-width="0.5" />
+        <line x1="0" y1="-4" x2="3" y2="-8" stroke="#333" stroke-width="0.5" />
+        <circle cx="-3" cy="-8" r="0.8" fill="#333" />
+        <circle cx="3" cy="-8" r="0.8" fill="#333" />
+    </g>
+</svg>

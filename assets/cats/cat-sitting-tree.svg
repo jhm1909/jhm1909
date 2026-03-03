@@ -1,0 +1,157 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 150" width="200" height="150">
+    <style>
+        .trunk {
+            fill: #8B4513;
+        }
+
+        .leaves {
+            fill: #228B22;
+        }
+
+        .leaf-light {
+            fill: #32CD32;
+        }
+
+        .cat-body {
+            fill: #f5f5f5;
+        }
+
+        .cat-spot {
+            fill: #f4a460;
+        }
+
+        .eye {
+            fill: #4169E1;
+        }
+
+        .nose {
+            fill: #ff69b4;
+        }
+
+        @keyframes tail-swing {
+
+            0%,
+            100% {
+                transform: rotate(0deg);
+            }
+
+            25% {
+                transform: rotate(20deg);
+            }
+
+            75% {
+                transform: rotate(-15deg);
+            }
+        }
+
+        @keyframes leaf-sway {
+
+            0%,
+            100% {
+                transform: rotate(0deg);
+            }
+
+            50% {
+                transform: rotate(3deg);
+            }
+        }
+
+        @keyframes blink {
+
+            0%,
+            42%,
+            44%,
+            100% {
+                transform: scaleY(1);
+            }
+
+            43% {
+                transform: scaleY(0.1);
+            }
+        }
+
+        .tail {
+            animation: tail-swing 3s ease-in-out infinite;
+            transform-origin: 100px 90px;
+        }
+
+        .tree-top {
+            animation: leaf-sway 5s ease-in-out infinite;
+            transform-origin: 50px 80px;
+        }
+
+        .eyes {
+            animation: blink 4s linear infinite;
+            transform-origin: center;
+        }
+    </style>
+    <!-- Tree trunk -->
+    <rect x="42" y="50" width="16" height="100" rx="3" class="trunk" />
+    <rect x="38" y="140" width="24" height="8" rx="4" fill="#6B3410" />
+    <!-- Branches -->
+    <path d="M 50 80 Q 30 75, 20 65" fill="none" stroke="#8B4513" stroke-width="5" stroke-linecap="round" />
+    <path d="M 50 70 Q 70 60, 85 55" fill="none" stroke="#8B4513" stroke-width="4" stroke-linecap="round" />
+    <path d="M 50 95 Q 75 88, 90 82" fill="none" stroke="#8B4513" stroke-width="4" stroke-linecap="round" />
+    <!-- Leaves -->
+    <g class="tree-top">
+        <ellipse cx="50" cy="40" rx="35" ry="30" class="leaves" />
+        <ellipse cx="35" cy="35" rx="18" ry="15" class="leaf-light" opacity="0.6" />
+        <ellipse cx="60" cy="30" rx="15" ry="12" class="leaf-light" opacity="0.4" />
+        <ellipse cx="20" cy="60" rx="14" ry="10" class="leaves" />
+        <circle cx="75" cy="50" r="10" class="leaves" />
+    </g>
+    <!-- Cat sitting on branch -->
+    <g transform="translate(72, 58)">
+        <!-- Tail hanging -->
+        <g class="tail">
+            <path d="M 28 32 Q 38 50, 32 62 Q 28 68, 24 65" fill="none" stroke="#f5f5f5" stroke-width="6"
+                stroke-linecap="round" />
+            <path d="M 24 65 Q 22 63, 24 62" fill="none" stroke="#f4a460" stroke-width="6" stroke-linecap="round" />
+        </g>
+        <!-- Body -->
+        <ellipse cx="18" cy="24" rx="16" ry="20" class="cat-body" />
+        <!-- Orange spots -->
+        <ellipse cx="10" cy="18" rx="6" ry="5" class="cat-spot" opacity="0.7" />
+        <ellipse cx="24" cy="28" rx="5" ry="4" class="cat-spot" opacity="0.7" />
+        <!-- Head -->
+        <circle cx="18" cy="2" r="14" class="cat-body" />
+        <!-- Ears -->
+        <polygon points="7,-10 10,-22 15,-8" class="cat-body" />
+        <polygon points="21,-8 26,-22 29,-10" class="cat-body" />
+        <polygon points="9,-9 11,-19 14,-8" class="cat-spot" opacity="0.5" />
+        <polygon points="22,-8 25,-19 27,-9" class="cat-spot" opacity="0.5" />
+        <!-- Eyes -->
+        <g class="eyes">
+            <circle cx="12" cy="0" r="3.5" class="eye" />
+            <circle cx="24" cy="0" r="3.5" class="eye" />
+            <circle cx="12" cy="0" r="2" fill="#111" />
+            <circle cx="24" cy="0" r="2" fill="#111" />
+            <circle cx="11" cy="-1" r="0.8" fill="white" />
+            <circle cx="23" cy="-1" r="0.8" fill="white" />
+        </g>
+        <!-- Nose -->
+        <ellipse cx="18" cy="5" rx="2" ry="1.5" class="nose" />
+        <!-- Mouth -->
+        <path d="M 18 6.5 Q 16 8.5, 14 7.5" fill="none" stroke="#999" stroke-width="0.7" />
+        <path d="M 18 6.5 Q 20 8.5, 22 7.5" fill="none" stroke="#999" stroke-width="0.7" />
+        <!-- Whiskers -->
+        <line x1="0" y1="4" x2="11" y2="4" fill="none" stroke="#ccc" stroke-width="0.6" />
+        <line x1="0" y1="7" x2="11" y2="6" fill="none" stroke="#ccc" stroke-width="0.6" />
+        <line x1="25" y1="4" x2="36" y2="4" fill="none" stroke="#ccc" stroke-width="0.6" />
+        <line x1="25" y1="6" x2="36" y2="7" fill="none" stroke="#ccc" stroke-width="0.6" />
+        <!-- Front paws -->
+        <ellipse cx="10" cy="40" rx="5" ry="3" class="cat-body" />
+        <ellipse cx="24" cy="40" rx="5" ry="3" class="cat-body" />
+    </g>
+    <!-- Small flowers on ground -->
+    <circle cx="140" cy="142" r="3" fill="#ff69b4" />
+    <circle cx="140" cy="142" r="1" fill="#ffeb3b" />
+    <circle cx="160" cy="145" r="2.5" fill="#bb86fc" />
+    <circle cx="160" cy="145" r="0.8" fill="#ffeb3b" />
+    <line x1="140" y1="145" x2="140" y2="148" stroke="#228B22" stroke-width="1" />
+    <line x1="160" y1="147.5" x2="160" y2="148" stroke="#228B22" stroke-width="1" />
+    <!-- Grass -->
+    <path
+        d="M 0 148 Q 10 144, 20 148 Q 30 144, 40 148 Q 50 144, 60 148 Q 70 144, 80 148 Q 90 144, 100 148 Q 110 144, 120 148 Q 130 144, 140 148 Q 150 144, 160 148 Q 170 144, 180 148 Q 190 144, 200 148"
+        fill="none" stroke="#228B22" stroke-width="2" />
+</svg>

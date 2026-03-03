@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 100" width="200" height="100">
+  <style>
+    .body { fill: #f4a460; }
+    .belly { fill: #ffdab9; }
+    .stripe { fill: #d2691e; }
+    .nose { fill: #ff69b4; }
+    .eye-closed { fill: none; stroke: #333; stroke-width: 1.5; stroke-linecap: round; }
+    .whisker { fill: none; stroke: #333; stroke-width: 0.8; }
+    .zzz { fill: #bb86fc; font-family: sans-serif; font-weight: bold; }
+    @keyframes breathe {
+      0%, 100% { transform: scaleY(1); }
+      50% { transform: scaleY(0.95); }
+    }
+    @keyframes float-z {
+      0% { opacity: 0; transform: translate(0, 0) scale(0.5); }
+      50% { opacity: 1; }
+      100% { opacity: 0; transform: translate(10px, -20px) scale(1.2); }
+    }
+    .cat-body { animation: breathe 3s ease-in-out infinite; transform-origin: center bottom; }
+    .z1 { animation: float-z 2s ease-out infinite; }
+    .z2 { animation: float-z 2s ease-out 0.6s infinite; }
+    .z3 { animation: float-z 2s ease-out 1.2s infinite; }
+    @keyframes tail-slow {
+      0%, 100% { transform: rotate(0deg); }
+      50% { transform: rotate(5deg); }
+    }
+    .tail { animation: tail-slow 4s ease-in-out infinite; transform-origin: 45px 65px; }
+  </style>
+  <!-- Tail -->
+  <g class="tail">
+    <path d="M 45 65 Q 20 55, 15 40 Q 12 30, 20 28" fill="none" stroke="#f4a460" stroke-width="8" stroke-linecap="round"/>
+    <path d="M 20 28 Q 22 26, 24 27" fill="none" stroke="#d2691e" stroke-width="8" stroke-linecap="round"/>
+  </g>
+  <!-- Body -->
+  <g class="cat-body">
+    <ellipse cx="100" cy="70" rx="50" ry="25" class="body"/>
+    <ellipse cx="100" cy="73" rx="35" ry="15" class="belly"/>
+    <!-- Stripes -->
+    <path d="M 80 50 Q 82 55, 78 58" class="stripe" fill="none" stroke="#d2691e" stroke-width="2"/>
+    <path d="M 90 48 Q 92 53, 88 56" class="stripe" fill="none" stroke="#d2691e" stroke-width="2"/>
+    <path d="M 110 48 Q 112 53, 108 56" class="stripe" fill="none" stroke="#d2691e" stroke-width="2"/>
+    <!-- Head -->
+    <circle cx="140" cy="58" r="18" class="body"/>
+    <!-- Ears -->
+    <polygon points="128,45 133,30 138,45" class="body"/>
+    <polygon points="142,45 147,30 152,45" class="body"/>
+    <polygon points="130,44 133,34 136,44" fill="#ff69b4" opacity="0.5"/>
+    <polygon points="144,44 147,34 150,44" fill="#ff69b4" opacity="0.5"/>
+    <!-- Closed eyes -->
+    <path d="M 133 56 Q 136 53, 139 56" class="eye-closed"/>
+    <path d="M 143 56 Q 146 53, 149 56" class="eye-closed"/>
+    <!-- Nose -->
+    <ellipse cx="141" cy="60" rx="2" ry="1.5" class="nose"/>
+    <!-- Mouth -->
+    <path d="M 141 61.5 Q 139 64, 137 63" fill="none" stroke="#333" stroke-width="0.8"/>
+    <path d="M 141 61.5 Q 143 64, 145 63" fill="none" stroke="#333" stroke-width="0.8"/>
+    <!-- Whiskers -->
+    <line x1="120" y1="58" x2="133" y2="59" class="whisker"/>
+    <line x1="121" y1="62" x2="133" y2="61" class="whisker"/>
+    <line x1="149" y1="59" x2="162" y2="58" class="whisker"/>
+    <line x1="149" y1="61" x2="162" y2="62" class="whisker"/>
+    <!-- Paws tucked -->
+    <ellipse cx="130" cy="85" rx="8" ry="5" class="body"/>
+    <ellipse cx="110" cy="87" rx="7" ry="4" class="belly"/>
+  </g>
+  <!-- Zzz -->
+  <text x="155" y="40" font-size="12" class="zzz z1">z</text>
+  <text x="163" y="30" font-size="14" class="zzz z2">z</text>
+  <text x="172" y="18" font-size="16" class="zzz z3">Z</text>
+</svg>

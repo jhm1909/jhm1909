@@ -1,0 +1,170 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 120" width="200" height="120">
+    <style>
+        .body {
+            fill: #2c2c2c;
+        }
+
+        .belly {
+            fill: #4a4a4a;
+        }
+
+        .eye {
+            fill: #66ff66;
+        }
+
+        .pupil {
+            fill: #111;
+        }
+
+        .nose {
+            fill: #ff69b4;
+        }
+
+        .yarn {
+            fill: #ff6b6b;
+            stroke: #cc4444;
+            stroke-width: 0.5;
+        }
+
+        .yarn-string {
+            fill: none;
+            stroke: #ff6b6b;
+            stroke-width: 2;
+        }
+
+        @keyframes paw-bat {
+
+            0%,
+            100% {
+                transform: rotate(0deg);
+            }
+
+            30% {
+                transform: rotate(-20deg);
+            }
+
+            60% {
+                transform: rotate(10deg);
+            }
+        }
+
+        @keyframes yarn-roll {
+
+            0%,
+            100% {
+                transform: translateX(0);
+            }
+
+            40% {
+                transform: translateX(-8px);
+            }
+
+            70% {
+                transform: translateX(4px);
+            }
+        }
+
+        @keyframes tail-wag {
+
+            0%,
+            100% {
+                transform: rotate(-10deg);
+            }
+
+            50% {
+                transform: rotate(15deg);
+            }
+        }
+
+        @keyframes eye-track {
+
+            0%,
+            100% {
+                transform: translateX(0);
+            }
+
+            40% {
+                transform: translateX(-1px);
+            }
+
+            70% {
+                transform: translateX(0.5px);
+            }
+        }
+
+        .paw-r {
+            animation: paw-bat 1.5s ease-in-out infinite;
+            transform-origin: 95px 75px;
+        }
+
+        .yarn-ball {
+            animation: yarn-roll 1.5s ease-in-out infinite;
+        }
+
+        .tail {
+            animation: tail-wag 2s ease-in-out infinite;
+            transform-origin: 55px 60px;
+        }
+
+        .pupils {
+            animation: eye-track 1.5s ease-in-out infinite;
+        }
+    </style>
+    <!-- Tail -->
+    <g class="tail">
+        <path d="M 55 60 Q 25 30, 20 50 Q 15 65, 25 55" fill="none" stroke="#2c2c2c" stroke-width="7"
+            stroke-linecap="round" />
+    </g>
+    <!-- Body crouching -->
+    <ellipse cx="85" cy="80" rx="40" ry="22" class="body" />
+    <ellipse cx="85" cy="83" rx="28" ry="13" class="belly" />
+    <!-- Back legs -->
+    <ellipse cx="55" cy="95" rx="10" ry="6" class="body" />
+    <ellipse cx="60" cy="97" rx="6" ry="3" fill="#4a4a4a" />
+    <!-- Head -->
+    <circle cx="115" cy="60" r="20" class="body" />
+    <!-- Ears -->
+    <polygon points="100,46 105,26 112,44" class="body" />
+    <polygon points="118,44 125,26 130,46" class="body" />
+    <polygon points="103,44 106,30 110,44" fill="#ff69b4" opacity="0.4" />
+    <polygon points="120,44 124,30 128,44" fill="#ff69b4" opacity="0.4" />
+    <!-- Eyes - big and focused -->
+    <ellipse cx="108" cy="58" rx="6" ry="6.5" class="eye" />
+    <ellipse cx="122" cy="58" rx="6" ry="6.5" class="eye" />
+    <g class="pupils">
+        <circle cx="109" cy="58" r="3.5" class="pupil" />
+        <circle cx="123" cy="58" r="3.5" class="pupil" />
+        <circle cx="107.5" cy="56.5" r="1.2" fill="white" />
+        <circle cx="121.5" cy="56.5" r="1.2" fill="white" />
+    </g>
+    <!-- Nose -->
+    <ellipse cx="115" cy="65" rx="2.5" ry="2" class="nose" />
+    <!-- Mouth -->
+    <path d="M 115 67 Q 112 70, 110 69" fill="none" stroke="#666" stroke-width="0.8" />
+    <path d="M 115 67 Q 118 70, 120 69" fill="none" stroke="#666" stroke-width="0.8" />
+    <!-- Whiskers -->
+    <line x1="95" y1="63" x2="108" y2="64" fill="none" stroke="#666" stroke-width="0.7" />
+    <line x1="94" y1="67" x2="108" y2="66" fill="none" stroke="#666" stroke-width="0.7" />
+    <line x1="122" y1="64" x2="135" y2="63" fill="none" stroke="#666" stroke-width="0.7" />
+    <line x1="122" y1="66" x2="136" y2="67" fill="none" stroke="#666" stroke-width="0.7" />
+    <!-- Front paw reaching -->
+    <g class="paw-r">
+        <path d="M 115 78 Q 130 75, 140 85" fill="none" stroke="#2c2c2c" stroke-width="8" stroke-linecap="round" />
+        <ellipse cx="142" cy="88" rx="6" ry="4" class="body" />
+        <!-- Paw pads -->
+        <circle cx="140" cy="88" r="1.5" fill="#ff69b4" opacity="0.5" />
+        <circle cx="143" cy="86" r="1.2" fill="#ff69b4" opacity="0.5" />
+        <circle cx="145" cy="88" r="1.2" fill="#ff69b4" opacity="0.5" />
+    </g>
+    <!-- Other paw -->
+    <ellipse cx="100" cy="96" rx="8" ry="5" class="body" />
+    <!-- Yarn ball -->
+    <g class="yarn-ball">
+        <circle cx="158" cy="95" r="12" class="yarn" />
+        <path d="M 150 90 Q 158 82, 166 90 Q 170 96, 162 100 Q 155 104, 150 97" fill="none" stroke="#cc4444"
+            stroke-width="1.5" />
+        <path d="M 153 93 Q 158 88, 163 93" fill="none" stroke="#ee8888" stroke-width="1" />
+        <!-- Yarn string trailing -->
+        <path d="M 148 92 Q 140 88, 142 95 Q 144 100, 138 98" class="yarn-string" />
+    </g>
+</svg>

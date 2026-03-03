@@ -58,14 +58,15 @@ const capy = {
 
 <br clear="both"/>
 
-<!-- 🐱 Cat divider 1: Coding cat -->
 <p align="center">
-  <img src="https://media.giphy.com/media/VbnUQpnihPSIgIXuZv/giphy.gif" width="100" />
+  <img src="./assets/cats/cat-waving.svg" width="180" alt="Cat Waving" />
 </p>
 
 <!-- ═══════════════════════════════════════════════════════════════════════ -->
 <!-- ░░░░░░░░░░░░░░░░░░░░░ TECH STACK ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ -->
 <!-- ═══════════════════════════════════════════════════════════════════════ -->
+
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0d1117&height=1&section=header" width="100%" />
 
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=soft&color=0:00d4ff,100:bb86fc&height=40&section=header&text=TECH%20ARSENAL&fontSize=16&fontColor=ffffff&fontAlignY=50" />
@@ -79,9 +80,8 @@ const capy = {
 
 <br/>
 
-<!-- 🐱 Cat divider 2: Curious cat -->
 <p align="center">
-  <img src="https://media.giphy.com/media/MDJ9IbxxvDUQM/giphy.gif" width="100" />
+  <img src="./assets/cats/cat-sleeping.svg" width="180" alt="Cat Sleeping" />
 </p>
 
 <!-- ═══════════════════════════════════════════════════════════════════════ -->
@@ -100,7 +100,7 @@ const capy = {
 
 <br/>
 
-<!-- ═══════════════════════════════════ STREAK STATS ═══════════ -->
+<!-- ═══════════════════════════════════════════ STREAK STATS ═══════════ -->
 
 <p align="center">
   <a href="https://github.com/jhm1909">
@@ -110,9 +110,8 @@ const capy = {
 
 <br/>
 
-<!-- 🐱 Cat divider 3: Dancing cat -->
 <p align="center">
-  <img src="https://media.giphy.com/media/jpbnoe3UIa8TU8LM13/giphy.gif" width="100" />
+  <img src="./assets/cats/cat-playing-yarn.svg" width="180" alt="Cat Playing Yarn" />
 </p>
 
 <!-- ═══════════════════════════════════════════════════════════════════════ -->
@@ -131,9 +130,8 @@ const capy = {
 
 <br/>
 
-<!-- 🐱 Cat divider 4: Cat with yarn -->
 <p align="center">
-  <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="100" />
+  <img src="./assets/cats/cat-chasing-butterfly.svg" width="220" alt="Cat Chasing Butterfly" />
 </p>
 
 <!-- ═══════════════════════════════════════════════════════════════════════ -->
@@ -152,9 +150,8 @@ const capy = {
 
 <br/>
 
-<!-- 🐱 Cat divider 5: Sleepy cat -->
 <p align="center">
-  <img src="https://media.giphy.com/media/3oriO0OEd9QIDdllqo/giphy.gif" width="100" />
+  <img src="./assets/cats/cat-sitting-tree.svg" width="180" alt="Cat Sitting in Tree" />
 </p>
 
 <!-- ═══════════════════════════════════════════════════════════════════════ -->
@@ -175,9 +172,8 @@ const capy = {
 
 <br/>
 
-<!-- 🐱 Cat divider 6: Jumping cat -->
 <p align="center">
-  <img src="https://media.giphy.com/media/ICOhEPushDhsI/giphy.gif" width="100" />
+  <img src="./assets/cats/cat-tower.svg" width="160" alt="Cat Tower" />
 </p>
 
 <!-- ═══════════════════════════════════════════════════════════════════════ -->
@@ -196,10 +192,12 @@ const capy = {
 
 <br/>
 
-<!-- 🐱 Cat divider 7: Cat typing -->
 <p align="center">
-  <img src="https://media.giphy.com/media/LmNwrBhejkK9EFP504/giphy.gif" width="100" />
+  <img src="./assets/cats/cat-waving.svg" width="120" alt="Cat Waving" />
+  <img src="./assets/cats/cat-sleeping.svg" width="150" alt="Cat Sleeping" />
+  <img src="./assets/cats/cat-waving.svg" width="120" alt="Cat Waving" />
 </p>
+
 
 <!-- ═══════════════════════════════════════════════════════════════════════ -->
 <!-- ░░░░░░░░░░░░░░░░░░░░░ METRICS ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ -->
@@ -227,9 +225,10 @@ const capy = {
 
 <br/>
 
-<!-- 🐱 Cat divider 8: Cat wave -->
 <p align="center">
-  <img src="https://media.giphy.com/media/vFKqnCdLPNOKc/giphy.gif" width="100" />
+  <img src="https://media.giphy.com/media/JIX9t2j0ZTN9S/giphy.gif" width="50" />
+  <img src="https://media.giphy.com/media/JIX9t2j0ZTN9S/giphy.gif" width="50" />
+  <img src="https://media.giphy.com/media/JIX9t2j0ZTN9S/giphy.gif" width="50" />
 </p>
 
 <!-- ═══════════════════════════════════════════════════════════════════════ -->
@@ -266,11 +265,11 @@ const capy = {
 <!-- ═══════════════════════════════════════════════════════════════════════ -->
 
 <p align="center">
-  <img src="https://media.giphy.com/media/JIX9t2j0ZTN9S/giphy.gif" width="50" />
-  <img src="https://media.giphy.com/media/jpbnoe3UIa8TU8LM13/giphy.gif" width="50" />
-  <b> Thanks for visiting! Have a purrfect day! 🐱 </b>
-  <img src="https://media.giphy.com/media/VbnUQpnihPSIgIXuZv/giphy.gif" width="50" />
-  <img src="https://media.giphy.com/media/MDJ9IbxxvDUQM/giphy.gif" width="50" />
+  <img src="./assets/cats/cat-eating.svg" width="180" alt="Cat Eating" />
+</p>
+
+<p align="center">
+  <b>Thanks for visiting! Have a purrfect day! 🐱</b>
 </p>
 
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:bb86fc,50:6366f1,100:00d4ff&height=150&section=footer" />

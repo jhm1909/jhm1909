@@ -192,13 +192,6 @@ const capy = {
 
 <br/>
 
-<p align="center">
-  <img src="./assets/cats/cat-waving.svg" width="120" alt="Cat Waving" />
-  <img src="./assets/cats/cat-sleeping.svg" width="150" alt="Cat Sleeping" />
-  <img src="./assets/cats/cat-waving.svg" width="120" alt="Cat Waving" />
-</p>
-
-
 <!-- ═══════════════════════════════════════════════════════════════════════ -->
 <!-- ░░░░░░░░░░░░░░░░░░░░░ METRICS ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ -->
 <!-- ═══════════════════════════════════════════════════════════════════════ -->
@@ -232,12 +225,6 @@ const capy = {
 
 <br/>
 
-<p align="center">
-  <img src="./assets/cats/cat-playing-yarn.svg" width="80" alt="Cat" />
-  <img src="./assets/cats/cat-sleeping.svg" width="80" alt="Cat" />
-  <img src="./assets/cats/cat-playing-yarn.svg" width="80" alt="Cat" />
-</p>
-
 <!-- ═══════════════════════════════════════════════════════════════════════ -->
 <!-- ░░░░░░░░░░░░░░░░░░░░░ CONNECT ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ -->
 <!-- ═══════════════════════════════════════════════════════════════════════ -->
@@ -270,12 +257,6 @@ const capy = {
 <!-- ═══════════════════════════════════════════════════════════════════════ -->
 <!-- ░░░░░░░░░░░░░░░░░░░░░░ FOOTER ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ -->
 <!-- ═══════════════════════════════════════════════════════════════════════ -->
-
-<p align="center">
-  <img src="./assets/cats/cat-waving.svg" width="120" alt="Cat Waving" />
-  <img src="./assets/cats/cat-chasing-butterfly.svg" width="180" alt="Cat Chasing Butterfly" />
-  <img src="./assets/cats/cat-sitting-tree.svg" width="120" alt="Cat in Tree" />
-</p>
 
 <p align="center">
   <b>Thanks for visiting! Have a purrfect day! 🐱</b>

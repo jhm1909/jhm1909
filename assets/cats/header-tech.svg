@@ -74,7 +74,7 @@
 
         .tail {
             animation: tail-s 2.5s ease-in-out infinite;
-            transform-origin: 80px 5px;
+            transform-origin: 76px 8px;
             transform-box: fill-box;
         }
 
@@ -105,7 +105,7 @@
     <g transform="translate(55, -2)">
         <!-- Tail -->
         <g class="tail">
-            <path d="M 80 5 Q 95 -10, 100 0 Q 102 5, 98 3" fill="none" stroke="#2c2c2c" stroke-width="4"
+            <path d="M 76 8 Q 88 -5, 95 3 Q 97 8, 93 5" fill="none" stroke="#2c2c2c" stroke-width="4"
                 stroke-linecap="round" />
         </g>
         <!-- Body sitting -->

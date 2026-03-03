@@ -72,11 +72,7 @@
             }
         }
 
-        .tail {
-            animation: tail-s 2.5s ease-in-out infinite;
-            transform-origin: 76px 8px;
-            transform-box: fill-box;
-        }
+
 
         .eyes {
             animation: blink 3.5s linear infinite;
@@ -103,11 +99,9 @@
 
     <!-- Cat sitting ON TOP of header, left side -->
     <g transform="translate(55, -2)">
-        <!-- Tail -->
-        <g class="tail">
-            <path d="M 76 8 Q 88 -5, 95 3 Q 97 8, 93 5" fill="none" stroke="#2c2c2c" stroke-width="4"
-                stroke-linecap="round" />
-        </g>
+        <!-- Tail — static, starts inside body -->
+        <path d="M 74 10 Q 85 0, 90 5 Q 93 10, 88 7" fill="none" stroke="#2c2c2c" stroke-width="4"
+            stroke-linecap="round" />
         <!-- Body sitting -->
         <ellipse cx="65" cy="12" rx="14" ry="10" fill="#2c2c2c" />
         <ellipse cx="65" cy="14" rx="9" ry="6" fill="#444" />

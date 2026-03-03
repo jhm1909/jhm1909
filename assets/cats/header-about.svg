@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -15 700 95" width="700" height="95">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -15 700 105" width="700" height="105">
     <defs>
         <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="0%">
             <stop offset="0%" style="stop-color:#00d4ff;stop-opacity:1" />
@@ -81,35 +81,74 @@
     <text x="350" y="46" font-family="Segoe UI,sans-serif" font-size="16" font-weight="bold" fill="white"
         text-anchor="middle" letter-spacing="2">ABOUT ME</text>
 
-    <!-- Vine entering from left -->
+    <!-- Vine wrapping around the header bar -->
     <g>
-        <!-- Main vine stem — straighter path hugging the bar top edge -->
-        <path d="M 0 18 C 20 18 40 18 60 19 C 80 20 100 20 120 20 C 140 20 160 21 180 20 C 195 19 210 19 220 19"
-            fill="none" stroke="#2ea043" stroke-width="3" stroke-linecap="round" />
-        <!-- Small tendril -->
-        <path d="M 5 18 Q 10 22 8 28" fill="none" stroke="#2ea043" stroke-width="2" stroke-linecap="round" />
+        <!--
+            Bar is at y=20..60. Vine weaves:
+            Start left → above bar (y=15) → cross down through bar → below bar (y=65) → back up above (y=15) → cross down again → below (y=65) → exit
+        -->
+        <!-- Back portion of vine (behind bar) rendered first -->
+        <path d="M 0 15
+            C 25 15, 45 15, 60 30
+            C 75 50, 85 65, 100 65
+            C 115 65, 125 65, 140 50
+            C 150 35, 155 15, 175 15
+            C 190 15, 195 15, 210 30
+            C 220 45, 225 65, 240 65" fill="none" stroke="#2ea043" stroke-width="3.5" stroke-linecap="round"
+            opacity="0.4" />
 
-        <!-- Leaf 1 at x≈40 — stem connects vine(y≈18) to leaf -->
+        <!-- Front portion of vine (in front of bar) — same path but clipped to visible areas -->
+        <path d="M 0 15
+            C 25 15, 45 15, 60 30
+            C 75 50, 85 65, 100 65
+            C 115 65, 125 65, 140 50
+            C 150 35, 155 15, 175 15
+            C 190 15, 195 15, 210 30
+            C 220 45, 225 65, 240 65" fill="none" stroke="#2ea043" stroke-width="3.5" stroke-linecap="round" />
+
+        <!-- Small tendril at entry -->
+        <path d="M 3 15 Q 0 22 5 28" fill="none" stroke="#2ea043" stroke-width="2" stroke-linecap="round" />
+        <path d="M 240 65 Q 248 68 245 75" fill="none" stroke="#2ea043" stroke-width="2" stroke-linecap="round" />
+
+        <!-- Leaves at vine peaks/valleys, attached with stems -->
+
+        <!-- Leaf 1: top of first peak (x≈30, y≈15) — above bar -->
         <g class="vine-leaf">
-            <line x1="40" y1="18" x2="40" y2="12" stroke="#2ea043" stroke-width="2" />
-            <path d="M 40 12 Q 30 4 38 0 Q 48 3 40 12 Z" fill="#3fb950" />
+            <line x1="30" y1="15" x2="28" y2="7" stroke="#2ea043" stroke-width="2" />
+            <path d="M 28 7 Q 18 0 26 -4 Q 36 1 28 7 Z" fill="#3fb950" />
         </g>
-        <!-- Leaf 2 at x≈80 — stem connects vine(y≈20) to leaf -->
+
+        <!-- Leaf 2: top of first peak (x≈50, y≈17) — above bar -->
         <g class="vine-leaf">
-            <line x1="80" y1="20" x2="82" y2="13" stroke="#2ea043" stroke-width="2" />
-            <path d="M 82 13 Q 74 4 82 0 Q 92 5 82 13 Z" fill="#7ee787" />
+            <line x1="50" y1="17" x2="52" y2="9" stroke="#2ea043" stroke-width="2" />
+            <path d="M 52 9 Q 44 1 52 -2 Q 62 3 52 9 Z" fill="#7ee787" />
         </g>
-        <!-- Leaf 3 at x≈120 — stem connects vine(y≈20) to leaf -->
+
+        <!-- Leaf 3: bottom of first valley (x≈100, y≈65) — below bar -->
         <g class="vine-leaf">
-            <line x1="120" y1="20" x2="120" y2="13" stroke="#2ea043" stroke-width="2" />
-            <path d="M 120 13 Q 110 5 118 1 Q 128 4 120 13 Z" fill="#3fb950" />
+            <line x1="100" y1="65" x2="98" y2="72" stroke="#2ea043" stroke-width="2" />
+            <path d="M 98 72 Q 88 78 96 82 Q 106 77 98 72 Z" fill="#3fb950" />
         </g>
-        <!-- Leaf 4 at x≈160 — stem connects vine(y≈21) to leaf -->
+
+        <!-- Leaf 4: top of second peak (x≈175, y≈15) — above bar -->
         <g class="vine-leaf">
-            <line x1="160" y1="21" x2="162" y2="14" stroke="#2ea043" stroke-width="2" />
-            <path d="M 162 14 Q 152 6 160 2 Q 170 7 162 14 Z" fill="#7ee787" />
+            <line x1="175" y1="15" x2="173" y2="7" stroke="#2ea043" stroke-width="2" />
+            <path d="M 173 7 Q 163 0 171 -4 Q 181 1 173 7 Z" fill="#7ee787" />
+        </g>
+
+        <!-- Leaf 5: top of second peak (x≈190, y≈15) — above bar -->
+        <g class="vine-leaf">
+            <line x1="190" y1="15" x2="193" y2="8" stroke="#2ea043" stroke-width="2" />
+            <path d="M 193 8 Q 185 1 193 -2 Q 201 3 193 8 Z" fill="#3fb950" />
+        </g>
+
+        <!-- Leaf 6: bottom of second valley (x≈235, y≈65) — below bar -->
+        <g class="vine-leaf">
+            <line x1="235" y1="65" x2="237" y2="72" stroke="#2ea043" stroke-width="2" />
+            <path d="M 237 72 Q 229 78 237 82 Q 245 77 237 72 Z" fill="#7ee787" />
         </g>
     </g>
+
 
     <!-- Cat sitting on top of right edge of header -->
     <g class="cat-hang">

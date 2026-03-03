@@ -83,28 +83,31 @@
 
     <!-- Vine entering from left -->
     <g>
-        <!-- Main vine stem — curved along the top edge of the bar -->
-        <path d="M 0 15 Q 25 18 55 17 Q 90 16 120 19 Q 160 22 200 18" fill="none" stroke="#2ea043" stroke-width="3"
-            stroke-linecap="round" />
-        <!-- Secondary tendril curling down -->
-        <path d="M 0 13 Q 12 18 20 22" fill="none" stroke="#2ea043" stroke-width="2" stroke-linecap="round" />
+        <!-- Main vine stem — straighter path hugging the bar top edge -->
+        <path d="M 0 18 C 20 18 40 18 60 19 C 80 20 100 20 120 20 C 140 20 160 21 180 20 C 195 19 210 19 220 19"
+            fill="none" stroke="#2ea043" stroke-width="3" stroke-linecap="round" />
+        <!-- Small tendril -->
+        <path d="M 5 18 Q 10 22 8 28" fill="none" stroke="#2ea043" stroke-width="2" stroke-linecap="round" />
 
-        <!-- Leaves — each leaf starts exactly on the vine path -->
-        <g class="vine-leaf" style="transform-origin: 35px 17px;">
-            <path d="M 35 17 Q 40 6 50 11 Q 45 20 35 17 Z" fill="#3fb950" />
-            <path d="M 35 17 L 44 12" stroke="#2ea043" stroke-width="1" />
+        <!-- Leaf 1 at x≈40 — stem connects vine(y≈18) to leaf -->
+        <g class="vine-leaf">
+            <line x1="40" y1="18" x2="40" y2="12" stroke="#2ea043" stroke-width="2" />
+            <path d="M 40 12 Q 30 4 38 0 Q 48 3 40 12 Z" fill="#3fb950" />
         </g>
-        <g class="vine-leaf" style="transform-origin: 80px 16px;">
-            <path d="M 80 16 Q 88 5 96 12 Q 90 22 80 16 Z" fill="#7ee787" />
-            <path d="M 80 16 L 90 11" stroke="#2ea043" stroke-width="1" />
+        <!-- Leaf 2 at x≈80 — stem connects vine(y≈20) to leaf -->
+        <g class="vine-leaf">
+            <line x1="80" y1="20" x2="82" y2="13" stroke="#2ea043" stroke-width="2" />
+            <path d="M 82 13 Q 74 4 82 0 Q 92 5 82 13 Z" fill="#7ee787" />
         </g>
-        <g class="vine-leaf" style="transform-origin: 130px 19px;">
-            <path d="M 130 19 Q 138 8 146 15 Q 140 25 130 19 Z" fill="#3fb950" />
-            <path d="M 130 19 L 140 14" stroke="#2ea043" stroke-width="1" />
+        <!-- Leaf 3 at x≈120 — stem connects vine(y≈20) to leaf -->
+        <g class="vine-leaf">
+            <line x1="120" y1="20" x2="120" y2="13" stroke="#2ea043" stroke-width="2" />
+            <path d="M 120 13 Q 110 5 118 1 Q 128 4 120 13 Z" fill="#3fb950" />
         </g>
-        <g class="vine-leaf" style="transform-origin: 175px 20px;">
-            <path d="M 175 20 Q 183 9 191 16 Q 185 26 175 20 Z" fill="#7ee787" />
-            <path d="M 175 20 L 185 15" stroke="#2ea043" stroke-width="1" />
+        <!-- Leaf 4 at x≈160 — stem connects vine(y≈21) to leaf -->
+        <g class="vine-leaf">
+            <line x1="160" y1="21" x2="162" y2="14" stroke="#2ea043" stroke-width="2" />
+            <path d="M 162 14 Q 152 6 160 2 Q 170 7 162 14 Z" fill="#7ee787" />
         </g>
     </g>
 

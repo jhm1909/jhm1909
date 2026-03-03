@@ -31,7 +31,7 @@
 <!-- ═══════════════════════════════════════════════════════════════════════ -->
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=soft&color=0:00d4ff,100:bb86fc&height=40&section=header&text=ABOUT%20ME&fontSize=16&fontColor=ffffff&fontAlignY=50" />
+  <img src="./assets/cats/header-about.svg" width="700" alt="About Me" />
 </p>
 
 <a href="https://spotify-github-profile.kittinanx.com/api/view?uid=31lkmwj7oxs7si5ntnuxhaxklysi&redirect=true">
@@ -69,7 +69,7 @@ const capy = {
 <img src="https://capsule-render.vercel.app/api?type=rect&color=0d1117&height=1&section=header" width="100%" />
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=soft&color=0:00d4ff,100:bb86fc&height=40&section=header&text=TECH%20ARSENAL&fontSize=16&fontColor=ffffff&fontAlignY=50" />
+  <img src="./assets/cats/header-tech.svg" width="700" alt="Tech Arsenal" />
 </p>
 
 <p align="center">
@@ -89,7 +89,7 @@ const capy = {
 <!-- ═══════════════════════════════════════════════════════════════════════ -->
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=soft&color=0:00d4ff,100:bb86fc&height=40&section=header&text=GITHUB%20ANALYTICS&fontSize=16&fontColor=ffffff&fontAlignY=50" />
+  <img src="./assets/cats/header-stats.svg" width="700" alt="GitHub Analytics" />
 </p>
 
 <p align="center">
@@ -119,7 +119,7 @@ const capy = {
 <!-- ═══════════════════════════════════════════════════════════════════════ -->
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=soft&color=0:00d4ff,100:bb86fc&height=40&section=header&text=GITHUB%20TROPHIES&fontSize=16&fontColor=ffffff&fontAlignY=50" />
+  <img src="./assets/cats/header-trophies.svg" width="700" alt="GitHub Trophies" />
 </p>
 
 <p align="center">
@@ -139,7 +139,7 @@ const capy = {
 <!-- ═══════════════════════════════════════════════════════════════════════ -->
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=soft&color=0:00d4ff,100:bb86fc&height=40&section=header&text=CONTRIBUTION%20ACTIVITY&fontSize=16&fontColor=ffffff&fontAlignY=50" />
+  <img src="./assets/cats/header-activity.svg" width="700" alt="Contribution Activity" />
 </p>
 
 <p align="center">
@@ -159,7 +159,7 @@ const capy = {
 <!-- ═══════════════════════════════════════════════════════════════════════ -->
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=soft&color=0:00d4ff,100:bb86fc&height=40&section=header&text=CONTRIBUTION%20SNAKE&fontSize=16&fontColor=ffffff&fontAlignY=50" />
+  <img src="./assets/cats/header-snake.svg" width="700" alt="Contribution Snake" />
 </p>
 
 <p align="center">
@@ -181,7 +181,7 @@ const capy = {
 <!-- ═══════════════════════════════════════════════════════════════════════ -->
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=soft&color=0:00d4ff,100:bb86fc&height=40&section=header&text=3D%20CONTRIBUTION%20GRAPH&fontSize=16&fontColor=ffffff&fontAlignY=50" />
+  <img src="./assets/cats/header-3d.svg" width="700" alt="3D Contribution Graph" />
 </p>
 
 <p align="center">
@@ -204,7 +204,7 @@ const capy = {
 <!-- ═══════════════════════════════════════════════════════════════════════ -->
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=soft&color=0:00d4ff,100:bb86fc&height=40&section=header&text=DETAILED%20METRICS&fontSize=16&fontColor=ffffff&fontAlignY=50" />
+  <img src="./assets/cats/header-metrics.svg" width="700" alt="Detailed Metrics" />
 </p>
 
 <p align="center">
@@ -236,7 +236,7 @@ const capy = {
 <!-- ═══════════════════════════════════════════════════════════════════════ -->
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=soft&color=0:00d4ff,100:bb86fc&height=40&section=header&text=CONNECT%20WITH%20ME&fontSize=16&fontColor=ffffff&fontAlignY=50" />
+  <img src="./assets/cats/header-connect.svg" width="700" alt="Connect With Me" />
 </p>
 
 <p align="center">

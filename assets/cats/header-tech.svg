@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 65" width="700" height="65">
+    <defs>
+        <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="0%">
+            <stop offset="0%" style="stop-color:#00d4ff" />
+            <stop offset="100%" style="stop-color:#bb86fc" />
+        </linearGradient>
+    </defs>
+    <style>
+        @keyframes tail-s {
+
+            0%,
+            100% {
+                transform: rotate(-8deg)
+            }
+
+            50% {
+                transform: rotate(8deg)
+            }
+        }
+
+        @keyframes blink {
+
+            0%,
+            88%,
+            90%,
+            100% {
+                transform: scaleY(1)
+            }
+
+            89% {
+                transform: scaleY(0.1)
+            }
+        }
+
+        .tail {
+            animation: tail-s 2.5s ease-in-out infinite;
+            transform-origin: 80px 5px
+        }
+
+        .eyes {
+            animation: blink 3.5s linear infinite;
+            transform-origin: center
+        }
+    </style>
+    <!-- Header bar -->
+    <rect x="30" y="20" width="640" height="40" rx="20" fill="url(#bg)" />
+    <text x="350" y="46" font-family="Segoe UI,sans-serif" font-size="16" font-weight="bold" fill="white"
+        text-anchor="middle" letter-spacing="2">TECH ARSENAL</text>
+    <!-- Cat sitting ON TOP of header, left side -->
+    <g transform="translate(55, -2)">
+        <!-- Tail -->
+        <g class="tail">
+            <path d="M 80 5 Q 95 -10, 100 0 Q 102 5, 98 3" fill="none" stroke="#2c2c2c" stroke-width="4"
+                stroke-linecap="round" />
+        </g>
+        <!-- Body sitting -->
+        <ellipse cx="65" cy="12" rx="14" ry="10" fill="#2c2c2c" />
+        <ellipse cx="65" cy="14" rx="9" ry="6" fill="#444" />
+        <!-- Head -->
+        <circle cx="55" cy="3" r="10" fill="#2c2c2c" />
+        <!-- Ears -->
+        <polygon points="47,-4 49,-13 53,-3" fill="#2c2c2c" />
+        <polygon points="57,-3 61,-13 63,-4" fill="#2c2c2c" />
+        <polygon points="48,-3 50,-11 52,-3" fill="#ff69b4" opacity="0.35" />
+        <polygon points="58,-3 60,-11 62,-3" fill="#ff69b4" opacity="0.35" />
+        <!-- Eyes -->
+        <g class="eyes">
+            <circle cx="51" cy="2" r="2.8" fill="#ffd700" />
+            <circle cx="59" cy="2" r="2.8" fill="#ffd700" />
+            <circle cx="51.5" cy="2" r="1.5" fill="#111" />
+            <circle cx="59.5" cy="2" r="1.5" fill="#111" />
+            <circle cx="50.5" cy="1" r="0.6" fill="white" />
+            <circle cx="58.5" cy="1" r="0.6" fill="white" />
+        </g>
+        <!-- Nose -->
+        <ellipse cx="55" cy="6" rx="1.5" ry="1" fill="#ff69b4" />
+        <!-- Paws resting on bar -->
+        <ellipse cx="52" cy="21" rx="5" ry="3" fill="#2c2c2c" />
+        <ellipse cx="72" cy="21" rx="5" ry="3" fill="#2c2c2c" />
+    </g>
+</svg>

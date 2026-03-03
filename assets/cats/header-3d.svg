@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 65" width="700" height="65">
+    <defs>
+        <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="0%">
+            <stop offset="0%" style="stop-color:#00d4ff" />
+            <stop offset="100%" style="stop-color:#bb86fc" />
+        </linearGradient>
+    </defs>
+    <style>
+        @keyframes look-around {
+
+            0%,
+            100% {
+                transform: translateX(0)
+            }
+
+            30% {
+                transform: translateX(1.5px)
+            }
+
+            70% {
+                transform: translateX(-1.5px)
+            }
+        }
+
+        @keyframes tail {
+
+            0%,
+            100% {
+                transform: rotate(0)
+            }
+
+            50% {
+                transform: rotate(-12deg)
+            }
+        }
+
+        .pupils {
+            animation: look-around 3s ease-in-out infinite
+        }
+
+        .tail {
+            animation: tail 2.5s ease-in-out infinite;
+            transform-origin: 365px 12px
+        }
+    </style>
+    <rect x="30" y="20" width="640" height="40" rx="20" fill="url(#bg)" />
+    <text x="350" y="46" font-family="Segoe UI,sans-serif" font-size="16" font-weight="bold" fill="white"
+        text-anchor="middle" letter-spacing="2">3D CONTRIBUTION GRAPH</text>
+    <!-- Two small cats sitting on top, center -->
+    <!-- Cat 1 - small orange -->
+    <g transform="translate(310, 0)">
+        <ellipse cx="0" cy="14" rx="8" ry="7" fill="#f4a460" />
+        <circle cx="0" cy="6" r="6" fill="#f4a460" />
+        <polygon points="-5,2 -4,-3 -2,1" fill="#f4a460" />
+        <polygon points="2,1 4,-3 5,2" fill="#f4a460" />
+        <polygon points="-4,1.5 -4,-1.5 -2.5,1.5" fill="#ff69b4" opacity="0.35" />
+        <polygon points="2.5,1.5 4,-1.5 4,1.5" fill="#ff69b4" opacity="0.35" />
+        <circle cx="-2" cy="5" r="1.5" fill="#228B22" />
+        <circle cx="2" cy="5" r="1.5" fill="#228B22" />
+        <g class="pupils">
+            <circle cx="-1.8" cy="5" r="0.8" fill="#111" />
+            <circle cx="2.2" cy="5" r="0.8" fill="#111" />
+        </g>
+        <ellipse cx="0" cy="7.5" rx="1" ry="0.6" fill="#ff69b4" />
+        <ellipse cx="-5" cy="20" rx="3" ry="2" fill="#f4a460" />
+        <ellipse cx="5" cy="20" rx="3" ry="2" fill="#f4a460" />
+    </g>
+    <!-- Cat 2 - small gray -->
+    <g transform="translate(390, 0)">
+        <g class="tail">
+            <path d="M -5 12 Q -15 5, -12 15" fill="none" stroke="#696969" stroke-width="3" stroke-linecap="round" />
+        </g>
+        <ellipse cx="0" cy="14" rx="8" ry="7" fill="#696969" />
+        <circle cx="0" cy="6" r="6" fill="#696969" />
+        <polygon points="-5,2 -4,-3 -2,1" fill="#696969" />
+        <polygon points="2,1 4,-3 5,2" fill="#696969" />
+        <circle cx="-2" cy="5" r="1.5" fill="#ffd700" />
+        <circle cx="2" cy="5" r="1.5" fill="#ffd700" />
+        <g class="pupils">
+            <circle cx="-1.8" cy="5" r="0.8" fill="#111" />
+            <circle cx="2.2" cy="5" r="0.8" fill="#111" />
+        </g>
+        <ellipse cx="0" cy="7.5" rx="1" ry="0.6" fill="#ff69b4" />
+        <ellipse cx="-5" cy="20" rx="3" ry="2" fill="#696969" />
+        <ellipse cx="5" cy="20" rx="3" ry="2" fill="#696969" />
+    </g>
+    <!-- Small heart between them -->
+    <text x="347" y="8" font-size="8">❤️</text>
+</svg>

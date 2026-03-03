@@ -232,10 +232,10 @@
     <!-- Butterfly -->
     <g class="butterfly-g" transform="translate(175, 30)">
         <ellipse cx="0" cy="0" rx="1.5" ry="4" fill="#333" />
-        <ellipse class="wing-l" cx="-6" cy="-2" rx="6" ry="4" class="butterfly" />
-        <ellipse class="wing-r" cx="6" cy="-2" rx="6" ry="4" class="butterfly2" />
-        <ellipse class="wing-l" cx="-4" cy="3" rx="4" ry="3" class="butterfly2" opacity="0.7" />
-        <ellipse class="wing-r" cx="4" cy="3" rx="4" ry="3" class="butterfly" opacity="0.7" />
+        <ellipse class="wing-l" cx="-6" cy="-2" rx="6" ry="4" fill="#bb86fc" />
+        <ellipse class="wing-r" cx="6" cy="-2" rx="6" ry="4" fill="#ff69b4" />
+        <ellipse class="wing-l" cx="-4" cy="3" rx="4" ry="3" fill="#ff69b4" opacity="0.7" />
+        <ellipse class="wing-r" cx="4" cy="3" rx="4" ry="3" fill="#bb86fc" opacity="0.7" />
         <!-- Antennae -->
         <line x1="0" y1="-4" x2="-3" y2="-8" stroke="#333" stroke-width="0.5" />
         <line x1="0" y1="-4" x2="3" y2="-8" stroke="#333" stroke-width="0.5" />

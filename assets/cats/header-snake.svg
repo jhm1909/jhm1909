@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -10 700 90" width="700" height="90">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -5 700 85" width="700" height="85">
     <defs>
         <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="0%">
             <stop offset="0%" style="stop-color:#00d4ff" />
@@ -50,66 +50,59 @@
     <text x="340" y="46" font-family="Segoe UI,sans-serif" font-size="16" font-weight="bold" fill="white"
         text-anchor="middle" letter-spacing="2">CONTRIBUTION SNAKE</text>
 
-    <!-- Snake: left→right, tail at x≈10, head at x≈370 (middle) -->
-    <!-- Hugs bar tightly: above edge y≈15, below edge y≈65 -->
+    <!-- Small snake: left→right, hugs bar tightly -->
     <g>
-        <!-- Body path — wraps tightly around bar -->
-        <path d="M 10 35
-            Q 30 35, 50 18
-            Q 70 0, 100 0
-            Q 130 0, 145 18
-            Q 160 38, 175 58
-            Q 190 75, 220 75
-            Q 250 75, 265 58
-            Q 280 38, 295 18
-            Q 310 0, 340 0
-            Q 358 0, 368 12" fill="none" stroke="#2ea043" stroke-width="8" stroke-linecap="round"
+        <!-- Body — thin, tight waves around bar edges -->
+        <path d="M 20 35
+            Q 35 35, 50 22
+            Q 65 8, 90 8
+            Q 115 8, 128 22
+            Q 140 38, 155 52
+            Q 170 68, 195 68
+            Q 220 68, 233 52
+            Q 245 38, 258 22
+            Q 270 8, 295 8
+            Q 310 8, 318 16" fill="none" stroke="#2ea043" stroke-width="4" stroke-linecap="round"
             stroke-linejoin="round" />
 
         <!-- Belly stripe -->
-        <path d="M 10 35
-            Q 30 35, 50 18
-            Q 70 0, 100 0
-            Q 130 0, 145 18
-            Q 160 38, 175 58
-            Q 190 75, 220 75
-            Q 250 75, 265 58
-            Q 280 38, 295 18
-            Q 310 0, 340 0
-            Q 358 0, 368 12" fill="none" stroke="#7ee787" stroke-width="3" stroke-linecap="round" opacity="0.4" />
+        <path d="M 20 35
+            Q 35 35, 50 22
+            Q 65 8, 90 8
+            Q 115 8, 128 22
+            Q 140 38, 155 52
+            Q 170 68, 195 68
+            Q 220 68, 233 52
+            Q 245 38, 258 22
+            Q 270 8, 295 8
+            Q 310 8, 318 16" fill="none" stroke="#7ee787" stroke-width="1.5" stroke-linecap="round" opacity="0.4" />
 
-        <!-- Diamond pattern -->
+        <!-- Small diamonds -->
         <g opacity="0.3">
-            <polygon points="100,-3 103,0 100,3 97,0" fill="#1a7f37" />
-            <polygon points="175,55 178,58 175,61 172,58" fill="#1a7f37" />
-            <polygon points="220,72 223,75 220,78 217,75" fill="#1a7f37" />
-            <polygon points="295,15 298,18 295,21 292,18" fill="#1a7f37" />
-            <polygon points="340,-3 343,0 340,3 337,0" fill="#1a7f37" />
+            <polygon points="90,6 92,8 90,10 88,8" fill="#1a7f37" />
+            <polygon points="155,50 157,52 155,54 153,52" fill="#1a7f37" />
+            <polygon points="195,66 197,68 195,70 193,68" fill="#1a7f37" />
+            <polygon points="295,6 297,8 295,10 293,8" fill="#1a7f37" />
         </g>
 
-        <!-- Tail tip — tapers left -->
-        <path d="M 10 35 Q 3 38, 0 34 Q -1 32, 2 33" fill="none" stroke="#2ea043" stroke-width="3"
+        <!-- Tail tip -->
+        <path d="M 20 35 Q 14 37, 12 34 Q 11 32, 14 33" fill="none" stroke="#2ea043" stroke-width="2"
             stroke-linecap="round" />
 
-        <!-- Snake head -->
-        <g transform="translate(368, 12)">
-            <ellipse cx="8" cy="0" rx="10" ry="7" fill="#2ea043" />
-            <ellipse cx="12" cy="1" rx="5" ry="4" fill="#3fb950" />
-            <!-- Eyes -->
+        <!-- Snake head — small -->
+        <g transform="translate(318, 16)">
+            <ellipse cx="5" cy="0" rx="6" ry="4.5" fill="#2ea043" />
+            <ellipse cx="8" cy="0.5" rx="3" ry="2.5" fill="#3fb950" />
             <g class="sn-eyes">
-                <circle cx="6" cy="-3" r="3" fill="#f1e05a" />
-                <circle cx="6" cy="-3" r="1.5" fill="#111" />
-                <circle cx="5.5" cy="-3.5" r="0.6" fill="white" />
+                <circle cx="4" cy="-2" r="2" fill="#f1e05a" />
+                <circle cx="4" cy="-2" r="1" fill="#111" />
+                <circle cx="3.5" cy="-2.3" r="0.4" fill="white" />
             </g>
-            <!-- Nostril -->
-            <circle cx="16" cy="-1" r="0.8" fill="#1a7f37" />
-            <!-- Tongue -->
+            <circle cx="10" cy="-0.5" r="0.5" fill="#1a7f37" />
             <g class="tongue">
-                <path d="M 18 1 L 24 -1 M 18 1 L 24 3" fill="none" stroke="#ff4444" stroke-width="1.2"
+                <path d="M 11 0.5 L 15 -0.5 M 11 0.5 L 15 2" fill="none" stroke="#ff4444" stroke-width="0.8"
                     stroke-linecap="round" />
             </g>
-            <!-- Smile -->
-            <path d="M 14 3 Q 12 5, 8 4" fill="none" stroke="#1a7f37" stroke-width="0.8" />
         </g>
     </g>
 </svg>

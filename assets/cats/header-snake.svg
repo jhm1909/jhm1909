@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 85" width="700" height="85">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -15 700 105" width="700" height="105">
     <defs>
         <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="0%">
             <stop offset="0%" style="stop-color:#00d4ff" />
@@ -6,118 +6,134 @@
         </linearGradient>
     </defs>
     <style>
-        @keyframes climb {
+        @keyframes leaf-sway {
 
             0%,
             100% {
-                transform: translateY(0)
+                transform: rotate(-3deg);
             }
 
             50% {
-                transform: translateY(-4px)
+                transform: rotate(3deg);
             }
         }
 
-        @keyframes paw-grip {
-
-            0%,
-            100% {
-                transform: rotate(0)
-            }
-
-            50% {
-                transform: rotate(-5deg)
-            }
-        }
-
-        @keyframes tail-climb {
-
-            0%,
-            100% {
-                transform: rotate(-10deg)
-            }
-
-            50% {
-                transform: rotate(10deg)
-            }
-        }
-
-        .climb {
-            animation: climb 2s ease-in-out infinite
-        }
-
-        .paw {
-            animation: paw-grip 2s ease-in-out infinite;
-            transform-origin: 655px 20px
-        }
-
-        .tail {
-            animation: tail-climb 1.5s ease-in-out infinite;
-            transform-origin: 655px 55px
-        }
-
-        .bush-sway {
-            animation: sway 4s ease-in-out infinite alternate;
-            transform-origin: bottom center;
+        .leaf {
+            animation: leaf-sway 3s ease-in-out infinite alternate;
+            transform-origin: center bottom;
             transform-box: fill-box;
         }
 
-        @keyframes sway {
-            0% {
-                transform: rotate(-2deg);
-            }
+        .leaf-d1 {
+            animation-delay: 0s;
+        }
 
-            100% {
-                transform: rotate(2deg);
-            }
+        .leaf-d2 {
+            animation-delay: 0.5s;
+        }
+
+        .leaf-d3 {
+            animation-delay: 1s;
+        }
+
+        .leaf-d4 {
+            animation-delay: 1.5s;
+        }
+
+        .leaf-d5 {
+            animation-delay: 2s;
         }
     </style>
+    <!-- Header bar -->
     <rect x="30" y="20" width="640" height="40" rx="20" fill="url(#bg)" />
     <text x="340" y="46" font-family="Segoe UI,sans-serif" font-size="16" font-weight="bold" fill="white"
         text-anchor="middle" letter-spacing="2">CONTRIBUTION SNAKE</text>
-    <!-- Cat climbing UP the right side of the header bar -->
-    <g class="climb" transform="translate(650, 5)">
-        <!-- Tail below -->
-        <g class="tail">
-            <path d="M 5 50 Q 15 60, 10 65 Q 7 68, 8 63" fill="none" stroke="#696969" stroke-width="4"
-                stroke-linecap="round" />
-        </g>
-        <!-- Body vertical, climbing -->
-        <ellipse cx="8" cy="35" rx="10" ry="15" fill="#696969" />
-        <ellipse cx="8" cy="37" rx="7" ry="10" fill="#888" />
-        <!-- Head at top -->
-        <circle cx="8" cy="16" r="10" fill="#696969" />
-        <polygon points="0,10 2,1 5,9" fill="#696969" />
-        <polygon points="11,9 14,1 16,10" fill="#696969" />
-        <polygon points="1.5,9 3,3 4.5,9" fill="#ff69b4" opacity="0.35" />
-        <polygon points="12,9 13.5,3 15,9" fill="#ff69b4" opacity="0.35" />
-        <!-- Eyes looking up determinedly -->
-        <circle cx="4" cy="14" r="2.5" fill="#00d4ff" />
-        <circle cx="12" cy="14" r="2.5" fill="#00d4ff" />
-        <circle cx="4.5" cy="13.5" r="1.3" fill="#111" />
-        <circle cx="12.5" cy="13.5" r="1.3" fill="#111" />
-        <circle cx="3.8" cy="13" r="0.5" fill="white" />
-        <circle cx="11.8" cy="13" r="0.5" fill="white" />
-        <ellipse cx="8" cy="18" rx="1.2" ry="0.8" fill="#ff69b4" />
-        <!-- Paws gripping bar -->
-        <g class="paw">
-            <ellipse cx="2" cy="22" rx="4" ry="3" fill="#696969" />
-            <ellipse cx="16" cy="24" rx="4" ry="3" fill="#696969" />
-        </g>
-        <!-- Back paws -->
-        <ellipse cx="3" cy="48" rx="4" ry="3" fill="#696969" />
-        <ellipse cx="14" cy="48" rx="4" ry="3" fill="#696969" />
-    </g>
-    <!-- Small snake emoji the cat is eyeing 🐍 -->
-    <text x="610" y="46" font-size="14">🐍</text>
 
-    <!-- Bush growing on the left side -->
-    <g class="bush-sway" transform="translate(45, 10)">
-        <circle cx="10" cy="30" r="15" fill="#2ea043" />
-        <circle cx="25" cy="20" r="18" fill="#3fb950" />
-        <circle cx="40" cy="28" r="14" fill="#2ea043" />
-        <!-- Highlights -->
-        <circle cx="20" cy="12" r="6" fill="#7ee787" opacity="0.6" />
-        <circle cx="35" cy="22" r="5" fill="#7ee787" opacity="0.6" />
+    <!-- Vine wrapping around header bar from right to left -->
+    <g>
+        <!-- Back vine (behind bar) — dimmed -->
+        <path d="M 700 40
+            C 680 40, 670 35, 650 20
+            C 635 8, 620 0, 600 0
+            C 580 0, 570 5, 555 20
+            C 540 40, 530 65, 510 65
+            C 490 65, 480 60, 465 45
+            C 450 28, 440 10, 420 10
+            C 400 10, 390 15, 375 30
+            C 360 50, 350 70, 330 70
+            C 310 70, 300 60, 285 45
+            C 270 30, 260 10, 240 10" fill="none" stroke="#2ea043" stroke-width="3.5" stroke-linecap="round"
+            opacity="0.35" />
+
+        <!-- Front vine (in front of bar) — full opacity -->
+        <path d="M 700 40
+            C 680 40, 670 35, 650 20
+            C 635 8, 620 0, 600 0
+            C 580 0, 570 5, 555 20
+            C 540 40, 530 65, 510 65
+            C 490 65, 480 60, 465 45
+            C 450 28, 440 10, 420 10
+            C 400 10, 390 15, 375 30
+            C 360 50, 350 70, 330 70
+            C 310 70, 300 60, 285 45
+            C 270 30, 260 10, 240 10" fill="none" stroke="#2ea043" stroke-width="3.5" stroke-linecap="round" />
+
+        <!-- Tendrils -->
+        <path d="M 695 40 Q 698 48 693 52" fill="none" stroke="#2ea043" stroke-width="2" stroke-linecap="round" />
+        <path d="M 243 10 Q 238 18 242 24" fill="none" stroke="#2ea043" stroke-width="2" stroke-linecap="round" />
+        <path d="M 370 35 Q 365 42 370 48" fill="none" stroke="#3fb950" stroke-width="1.5" stroke-linecap="round" />
+
+        <!-- Leaves along the vine -->
+        <!-- Leaf 1 — near right entry above bar -->
+        <g class="leaf leaf-d1" transform="translate(630, -2)">
+            <path d="M 0 8 Q -6 0, 0 -6 Q 6 0, 0 8 Z" fill="#2ea043" />
+            <path d="M 0 8 L 0 -6" fill="none" stroke="#1a7f37" stroke-width="0.6" />
+        </g>
+
+        <!-- Leaf 2 — above bar, near top of first wave -->
+        <g class="leaf leaf-d2" transform="translate(598, -4)">
+            <path d="M 0 8 Q -7 0, 0 -7 Q 7 0, 0 8 Z" fill="#3fb950" />
+            <path d="M 0 8 L 0 -7" fill="none" stroke="#1a7f37" stroke-width="0.6" />
+        </g>
+
+        <!-- Leaf 3 — below bar, bottom of second wave -->
+        <g class="leaf leaf-d3" transform="translate(512, 64)">
+            <path d="M 0 0 Q -6 -8, 0 -12 Q 6 -8, 0 0 Z" fill="#2ea043" />
+            <path d="M 0 0 L 0 -12" fill="none" stroke="#1a7f37" stroke-width="0.6" />
+        </g>
+
+        <!-- Leaf 4 — above bar, top of third wave -->
+        <g class="leaf leaf-d4" transform="translate(418, 6)">
+            <path d="M 0 8 Q -6 0, 0 -6 Q 6 0, 0 8 Z" fill="#3fb950" />
+            <path d="M 0 8 L 0 -6" fill="none" stroke="#1a7f37" stroke-width="0.6" />
+        </g>
+
+        <!-- Leaf 5 — below bar, bottom of fourth wave -->
+        <g class="leaf leaf-d5" transform="translate(332, 68)">
+            <path d="M 0 0 Q -7 -8, 0 -13 Q 7 -8, 0 0 Z" fill="#2ea043" />
+            <path d="M 0 0 L 0 -13" fill="none" stroke="#1a7f37" stroke-width="0.6" />
+        </g>
+
+        <!-- Leaf 6 — near left exit -->
+        <g class="leaf leaf-d1" transform="translate(270, 8)">
+            <path d="M 0 8 Q -6 0, 0 -6 Q 6 0, 0 8 Z" fill="#3fb950" />
+            <path d="M 0 8 L 0 -6" fill="none" stroke="#1a7f37" stroke-width="0.6" />
+        </g>
+
+        <!-- Small flower on vine -->
+        <g transform="translate(555, 16)">
+            <circle cx="0" cy="-2" r="3" fill="#ff7b72" opacity="0.8" />
+            <circle cx="-2.5" cy="0.5" r="3" fill="#ff7b72" opacity="0.8" />
+            <circle cx="2.5" cy="0.5" r="3" fill="#ff7b72" opacity="0.8" />
+            <circle cx="0" cy="0" r="2" fill="#f1e05a" />
+        </g>
+
+        <!-- Small flower on vine lower -->
+        <g transform="translate(375, 34)">
+            <circle cx="0" cy="-2" r="2.5" fill="#bb86fc" opacity="0.8" />
+            <circle cx="-2" cy="0.5" r="2.5" fill="#bb86fc" opacity="0.8" />
+            <circle cx="2" cy="0.5" r="2.5" fill="#bb86fc" opacity="0.8" />
+            <circle cx="0" cy="0" r="1.5" fill="#f1e05a" />
+        </g>
     </g>
 </svg>

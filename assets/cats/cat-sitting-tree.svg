@@ -83,6 +83,7 @@
         .eyes {
             animation: blink 4s linear infinite;
             transform-origin: center;
+            transform-box: fill-box;
         }
     </style>
     <!-- Tree trunk -->

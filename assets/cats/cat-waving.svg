@@ -75,6 +75,7 @@
         .eyes {
             animation: blink 3.5s linear infinite;
             transform-origin: center;
+            transform-box: fill-box;
         }
 
         @keyframes sparkle {

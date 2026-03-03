@@ -54,7 +54,8 @@
 
         .eyes {
             animation: blink 3s linear infinite;
-            transform-origin: center
+            transform-origin: center;
+            transform-box: fill-box;
         }
 
         .paw-l {

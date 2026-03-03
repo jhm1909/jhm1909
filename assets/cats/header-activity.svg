@@ -32,7 +32,8 @@
 
         .cat-lazy {
             animation: stretch 4s ease-in-out infinite;
-            transform-origin: center
+            transform-origin: center;
+            transform-box: fill-box;
         }
 
         .tail {

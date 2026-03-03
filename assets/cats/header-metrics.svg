@@ -56,7 +56,8 @@
 
         .eyes {
             animation: blink 3.5s linear infinite;
-            transform-origin: center
+            transform-origin: center;
+            transform-box: fill-box;
         }
     </style>
     <rect x="30" y="20" width="640" height="40" rx="20" fill="url(#bg)" />

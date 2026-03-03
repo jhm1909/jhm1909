@@ -106,6 +106,7 @@
         .cat2-body {
             animation: breathe 4s ease-in-out infinite;
             transform-origin: center bottom;
+            transform-box: fill-box;
         }
     </style>
     <!-- Cat Tower Structure -->

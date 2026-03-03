@@ -146,11 +146,13 @@
         .wing-l {
             animation: wing-flap 0.3s ease-in-out infinite;
             transform-origin: right;
+            transform-box: fill-box;
         }
 
         .wing-r {
             animation: wing-flap 0.3s ease-in-out infinite;
             transform-origin: left;
+            transform-box: fill-box;
         }
 
         .tail {

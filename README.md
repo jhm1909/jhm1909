@@ -10,7 +10,7 @@
 
 <p align="center">
   <a href="https://github.com/jhm1909">
-    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=3000&pause=1000&color=00D4FF&center=true&vCenter=true&multiline=true&repeat=true&width=700&height=120&lines=%E2%9A%A1+Full-Stack+Developer+%7C+Go+Enthusiast;%F0%9F%94%A5+Scalable+systems+%26+beautiful+interfaces;%F0%9F%9A%80+Turning+coffee+into+production-grade+code" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=3000&pause=1000&color=00D4FF&center=true&vCenter=true&multiline=true&repeat=true&width=700&height=120&lines=Full-Stack+Developer+%7C+Go+Enthusiast;Scalable+systems+%26+beautiful+interfaces;Turning+coffee+into+production-grade+code" alt="Typing SVG" />
   </a>
 </p>
 

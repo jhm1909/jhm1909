@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 70" width="700" height="70">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 80" width="700" height="80">
     <defs>
         <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="0%">
             <stop offset="0%" style="stop-color:#00d4ff;stop-opacity:1" />
@@ -59,40 +59,82 @@
             animation: dangle 3s ease-in-out infinite;
             transform-origin: 660px 0px
         }
+
+        .vine-leaf {
+            animation: leaf-sway 3s ease-in-out infinite alternate;
+            transform-box: fill-box;
+            transform-origin: left center;
+        }
+
+        @keyframes leaf-sway {
+            0% {
+                transform: rotate(-5deg);
+            }
+
+            100% {
+                transform: rotate(5deg);
+            }
+        }
     </style>
     <!-- Header bar -->
-    <rect x="30" y="15" width="640" height="40" rx="20" fill="url(#bg)" />
-    <text x="350" y="41" font-family="Segoe UI,sans-serif" font-size="16" font-weight="bold" fill="white"
+    <rect x="30" y="20" width="640" height="40" rx="20" fill="url(#bg)" />
+    <text x="350" y="46" font-family="Segoe UI,sans-serif" font-size="16" font-weight="bold" fill="white"
         text-anchor="middle" letter-spacing="2">ABOUT ME</text>
+
+    <!-- Vine entering from left -->
+    <g>
+        <!-- Main vine stem wrapped along the top edge of the bar -->
+        <path d="M 0 10 Q 30 20 60 18 Q 100 15 130 20 Q 180 25 220 18" fill="none" stroke="#2ea043" stroke-width="3"
+            stroke-linecap="round" />
+        <path d="M 0 8 Q 15 15 25 25" fill="none" stroke="#2ea043" stroke-width="2" stroke-linecap="round" />
+
+        <!-- Leaves -->
+        <g class="vine-leaf" style="transform-origin: 20px 17px;">
+            <path d="M 21 17 Q 25 5 35 10 Q 30 20 21 17 Z" fill="#3fb950" />
+            <path d="M 21 17 L 30 11" stroke="#2ea043" stroke-width="1.5" />
+        </g>
+        <g class="vine-leaf" style="transform-origin: 70px 17px;">
+            <path d="M 71 17 Q 80 5 90 12 Q 85 22 71 17 Z" fill="#3fb950" />
+            <path d="M 71 17 L 83 13" stroke="#2ea043" stroke-width="1.5" />
+        </g>
+        <g class="vine-leaf" style="transform-origin: 120px 19px;">
+            <path d="M 121 19 Q 130 8 140 15 Q 135 25 121 19 Z" fill="#3fb950" />
+            <path d="M 121 19 L 133 16" stroke="#2ea043" stroke-width="1.5" />
+        </g>
+        <g class="vine-leaf" style="transform-origin: 170px 22px;">
+            <path d="M 171 22 Q 180 10 190 17 Q 185 27 171 22 Z" fill="#3fb950" />
+            <path d="M 171 22 L 183 18" stroke="#2ea043" stroke-width="1.5" />
+        </g>
+    </g>
     <!-- Cat hanging off right edge of header -->
     <g class="cat-hang">
         <!-- Paws gripping top of bar -->
-        <ellipse cx="648" cy="16" rx="5" ry="3" fill="#f4a460" />
-        <ellipse cx="660" cy="16" rx="5" ry="3" fill="#f4a460" />
+        <ellipse cx="648" cy="21" rx="5" ry="3" fill="#f4a460" />
+        <ellipse cx="660" cy="21" rx="5" ry="3" fill="#f4a460" />
         <!-- Body hanging down -->
-        <ellipse cx="654" cy="35" rx="12" ry="16" fill="#f4a460" />
-        <ellipse cx="654" cy="38" rx="8" ry="10" fill="#ffdab9" />
+        <ellipse cx="654" cy="40" rx="12" ry="16" fill="#f4a460" />
+        <ellipse cx="654" cy="43" rx="8" ry="10" fill="#ffdab9" />
         <!-- Head -->
-        <circle cx="654" cy="52" r="10" fill="#f4a460" />
+        <circle cx="654" cy="57" r="10" fill="#f4a460" />
         <!-- Ears -->
-        <polygon points="646,46 648,38 651,45" fill="#f4a460" />
-        <polygon points="657,45 660,38 662,46" fill="#f4a460" />
-        <polygon points="647,45 649,40 650,45" fill="#ff69b4" opacity="0.4" />
-        <polygon points="658,45 660,40 661,45" fill="#ff69b4" opacity="0.4" />
+        <polygon points="646,51 648,43 651,50" fill="#f4a460" />
+        <polygon points="657,50 660,43 662,51" fill="#f4a460" />
+        <polygon points="647,50 649,45 650,50" fill="#ff69b4" opacity="0.4" />
+        <polygon points="658,50 660,45 661,50" fill="#ff69b4" opacity="0.4" />
         <!-- Eyes looking up -->
         <g class="eyes">
-            <circle cx="650" cy="51" r="2.5" fill="#66ff66" />
-            <circle cx="658" cy="51" r="2.5" fill="#66ff66" />
-            <circle cx="650" cy="51.5" r="1.3" fill="#111" />
-            <circle cx="658" cy="51.5" r="1.3" fill="#111" />
-            <circle cx="649.5" cy="50.5" r="0.5" fill="white" />
-            <circle cx="657.5" cy="50.5" r="0.5" fill="white" />
+            <circle cx="650" cy="56" r="2.5" fill="#66ff66" />
+            <circle cx="658" cy="56" r="2.5" fill="#66ff66" />
+            <circle cx="650" cy="56.5" r="1.3" fill="#111" />
+            <circle cx="658" cy="56.5" r="1.3" fill="#111" />
+            <circle cx="649.5" cy="55.5" r="0.5" fill="white" />
+            <circle cx="657.5" cy="55.5" r="0.5" fill="white" />
         </g>
         <!-- Nose -->
-        <ellipse cx="654" cy="54.5" rx="1.5" ry="1" fill="#ff69b4" />
+        <ellipse cx="654" cy="59.5" rx="1.5" ry="1" fill="#ff69b4" />
         <!-- Tail hanging -->
         <g class="tail">
-            <path d="M 640 8 Q 630 15, 632 25 Q 634 32, 630 28" fill="none" stroke="#f4a460" stroke-width="4"
+            <path d="M 640 13 Q 630 20, 632 30 Q 634 37, 630 33" fill="none" stroke="#f4a460" stroke-width="4"
                 stroke-linecap="round" />
         </g>
     </g>

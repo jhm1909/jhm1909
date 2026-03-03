@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 85" width="700" height="85">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -10 700 95" width="700" height="95">
     <defs>
         <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="0%">
             <stop offset="0%" style="stop-color:#00d4ff" />
@@ -36,10 +36,7 @@
             transform-box: fill-box;
         }
 
-        .tail {
-            animation: tail-lazy 3s ease-in-out infinite;
-            transform-origin: 620px 30px
-        }
+
 
         .flower-sway {
             animation: sway 3s ease-in-out infinite alternate;
@@ -61,11 +58,10 @@
     <text x="350" y="46" font-family="Segoe UI,sans-serif" font-size="16" font-weight="bold" fill="white"
         text-anchor="middle" letter-spacing="2">CONTRIBUTION ACTIVITY</text>
     <!-- Cat lying lazily ON TOP of bar, right side -->
-    <g class="cat-lazy" transform="translate(560, 0)">
-        <g class="tail">
-            <path d="M 60 12 Q 75 0, 80 8 Q 82 12, 78 10" fill="none" stroke="#f5deb3" stroke-width="4"
-                stroke-linecap="round" />
-        </g>
+    <g class="cat-lazy" transform="translate(590, -2)">
+        <!-- Tail — static, starts inside body -->
+        <path d="M 60 12 Q 68 4, 72 8 Q 74 12, 70 10" fill="none" stroke="#f5deb3" stroke-width="4"
+            stroke-linecap="round" />
         <ellipse cx="45" cy="14" rx="20" ry="8" fill="#f5deb3" />
         <ellipse cx="45" cy="15" rx="13" ry="5" fill="#ffefd5" />
         <!-- Head resting -->

@@ -56,7 +56,11 @@ mantra: "Clean code, strong coffee, zero downtime"
 <!-- ░░░░░░░░░░░░░░░░░░░░░ TECH STACK ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ -->
 <!-- ═══════════════════════════════════════════════════════════════════════ -->
 
-<h2 align="center">🛠️ Tech Arsenal</h2>
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0d1117&height=1&section=header" width="100%" />
+
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=soft&color=0:00d4ff,100:bb86fc&height=40&section=header&text=TECH%20ARSENAL&fontSize=16&fontColor=ffffff&fontAlignY=50" />
+</p>
 
 <p align="center">
   <a href="https://skillicons.dev">
@@ -72,7 +76,9 @@ mantra: "Clean code, strong coffee, zero downtime"
 <!-- ░░░░░░░░░░░░░░░░░░░░ GITHUB STATS ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ -->
 <!-- ═══════════════════════════════════════════════════════════════════════ -->
 
-<h2 align="center">📊 GitHub Analytics</h2>
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=soft&color=0:00d4ff,100:bb86fc&height=40&section=header&text=GITHUB%20ANALYTICS&fontSize=16&fontColor=ffffff&fontAlignY=50" />
+</p>
 
 <p align="center">
   <a href="https://github.com/jhm1909">
@@ -99,7 +105,9 @@ mantra: "Clean code, strong coffee, zero downtime"
 <!-- ░░░░░░░░░░░░░░░░░░░░░ TROPHIES ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ -->
 <!-- ═══════════════════════════════════════════════════════════════════════ -->
 
-<h2 align="center">🏆 GitHub Trophies</h2>
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=soft&color=0:00d4ff,100:bb86fc&height=40&section=header&text=GITHUB%20TROPHIES&fontSize=16&fontColor=ffffff&fontAlignY=50" />
+</p>
 
 <p align="center">
   <a href="https://github.com/ryo-ma/github-profile-trophy">
@@ -115,7 +123,9 @@ mantra: "Clean code, strong coffee, zero downtime"
 <!-- ░░░░░░░░░░░░░░░░░░░ ACTIVITY GRAPH ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ -->
 <!-- ═══════════════════════════════════════════════════════════════════════ -->
 
-<h2 align="center">📈 Contribution Activity</h2>
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=soft&color=0:00d4ff,100:bb86fc&height=40&section=header&text=CONTRIBUTION%20ACTIVITY&fontSize=16&fontColor=ffffff&fontAlignY=50" />
+</p>
 
 <p align="center">
   <a href="https://github.com/jhm1909">
@@ -131,7 +141,9 @@ mantra: "Clean code, strong coffee, zero downtime"
 <!-- ░░░░░░░░░░░░░░░░░░░░ SNAKE GRAPH ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ -->
 <!-- ═══════════════════════════════════════════════════════════════════════ -->
 
-<h2 align="center">🐍 Contribution Snake</h2>
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=soft&color=0:00d4ff,100:bb86fc&height=40&section=header&text=CONTRIBUTION%20SNAKE&fontSize=16&fontColor=ffffff&fontAlignY=50" />
+</p>
 
 <p align="center">
   <picture>
@@ -149,7 +161,9 @@ mantra: "Clean code, strong coffee, zero downtime"
 <!-- ░░░░░░░░░░░░░░░░░░ 3D CONTRIBUTION ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ -->
 <!-- ═══════════════════════════════════════════════════════════════════════ -->
 
-<h2 align="center">🌐 3D Contribution Graph</h2>
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=soft&color=0:00d4ff,100:bb86fc&height=40&section=header&text=3D%20CONTRIBUTION%20GRAPH&fontSize=16&fontColor=ffffff&fontAlignY=50" />
+</p>
 
 <p align="center">
   <a href="https://github.com/jhm1909">
@@ -165,7 +179,9 @@ mantra: "Clean code, strong coffee, zero downtime"
 <!-- ░░░░░░░░░░░░░░░░░ SPOTIFY NOW PLAYING ░░░░░░░░░░░░░░░░░░░░░░░░░░░░ -->
 <!-- ═══════════════════════════════════════════════════════════════════════ -->
 
-<h2 align="center">🎵 Vibing To</h2>
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=soft&color=0:00d4ff,100:bb86fc&height=40&section=header&text=NOW%20PLAYING&fontSize=16&fontColor=ffffff&fontAlignY=50" />
+</p>
 
 <p align="center">
   <a href="https://spotify-github-profile.kittinanx.com/api/view?uid=31lkmwj7oxs7si5ntnuxhaxklysi&redirect=true">
@@ -181,7 +197,9 @@ mantra: "Clean code, strong coffee, zero downtime"
 <!-- ░░░░░░░░░░░░░░░░░░░░░ METRICS ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ -->
 <!-- ═══════════════════════════════════════════════════════════════════════ -->
 
-<h2 align="center">📊 Detailed Metrics</h2>
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=soft&color=0:00d4ff,100:bb86fc&height=40&section=header&text=DETAILED%20METRICS&fontSize=16&fontColor=ffffff&fontAlignY=50" />
+</p>
 
 <p align="center">
   <a href="https://github.com/jhm1909">
@@ -207,7 +225,9 @@ mantra: "Clean code, strong coffee, zero downtime"
 <!-- ░░░░░░░░░░░░░░░░░░░░░ CONNECT ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ -->
 <!-- ═══════════════════════════════════════════════════════════════════════ -->
 
-<h2 align="center">🤝 Connect With Me</h2>
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=soft&color=0:00d4ff,100:bb86fc&height=40&section=header&text=CONNECT%20WITH%20ME&fontSize=16&fontColor=ffffff&fontAlignY=50" />
+</p>
 
 <p align="center">
   <a href="mailto:jeonghamin1909@gmail.com">

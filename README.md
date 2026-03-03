@@ -38,11 +38,23 @@
   <img align="right" src="https://spotify-github-profile.kittinanx.com/api/view?uid=31lkmwj7oxs7si5ntnuxhaxklysi&cover_image=true&theme=default&show_offline=true&background_color=121212&interchange=true&profanity=true&bar_color_cover=true&bar_color=53b14f" alt="Spotify Now Playing" width="300" />
 </a>
 
-- 🔭 Building **production-grade systems** with **Go**
-- 🌱 Deep diving into **System Design & Cloud Architecture**
-- 💬 Ask me about **Go · APIs · Microservices · React**
-- 📫 Reach me at **[jeonghamin1909@gmail.com](mailto:jeonghamin1909@gmail.com)**
-- ⚡ Fun fact: I debug faster with ☕ in hand
+```js
+const capy = {
+  role: "Full-Stack Developer",
+  code: ["Go", "TypeScript", "JavaScript", "Python"],
+  focus: "Scalable Backend Systems & Modern Frontend",
+  currentlyBuilding: "Production-grade systems with Go",
+  learning: "System Design & Cloud Architecture",
+  askMeAbout: ["Go", "APIs", "Microservices", "React"],
+  funFact: "I debug faster with ☕ in hand"
+};
+```
+
+<p>
+  <a href="mailto:jeonghamin1909@gmail.com">
+    <img src="https://img.shields.io/badge/jeonghamin1909@gmail.com-D14836?style=flat-square&logo=gmail&logoColor=white" />
+  </a>
+</p>
 
 <br clear="both"/>
 

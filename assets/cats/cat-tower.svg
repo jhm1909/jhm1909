@@ -98,10 +98,7 @@
             transform-origin: 70px 62px;
         }
 
-        .tail-2 {
-            animation: tail2 2.5s ease-in-out infinite;
-            transform-origin: 115px 110px;
-        }
+
 
         .cat2-body {
             animation: breathe 4s ease-in-out infinite;
@@ -160,12 +157,12 @@
     </g>
     <!-- Cat 2 (gray) - on middle platform, sitting alert -->
     <g class="cat2-body">
-        <g class="tail-2">
-            <path d="M 115 110 Q 135 95, 138 105 Q 140 112, 135 108" fill="none" stroke="#696969" stroke-width="5"
-                stroke-linecap="round" />
-        </g>
+        <!-- Body -->
         <ellipse cx="95" cy="88" rx="15" ry="12" class="cat2" />
         <ellipse cx="95" cy="90" rx="10" ry="7" fill="#888" />
+        <!-- Tail — static, drawn after body -->
+        <path d="M 108 85 Q 128 75, 130 85 Q 132 92, 127 88" fill="none" stroke="#696969" stroke-width="5"
+            stroke-linecap="round" />
         <!-- Head -->
         <circle cx="95" cy="72" r="11" class="cat2" />
         <!-- Ears -->

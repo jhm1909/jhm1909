@@ -58,7 +58,7 @@
     <text x="350" y="46" font-family="Segoe UI,sans-serif" font-size="16" font-weight="bold" fill="white"
         text-anchor="middle" letter-spacing="2">CONTRIBUTION ACTIVITY</text>
     <!-- Cat lying lazily ON TOP of bar, right side -->
-    <g class="cat-lazy" transform="translate(590, -2)">
+    <g class="cat-lazy" transform="translate(630, -2)">
         <!-- Tail — static, starts inside body -->
         <path d="M 60 12 Q 68 4, 72 8 Q 74 12, 70 10" fill="none" stroke="#f5deb3" stroke-width="4"
             stroke-linecap="round" />

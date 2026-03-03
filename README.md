@@ -34,48 +34,17 @@
   <img src="https://capsule-render.vercel.app/api?type=soft&color=0:00d4ff,100:bb86fc&height=40&section=header&text=ABOUT%20ME&fontSize=16&fontColor=ffffff&fontAlignY=50" />
 </p>
 
-<p align="center">
-  <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="28" />
-  <b>Hey there! I'm Capy</b>
-  <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="28" />
-</p>
+<a href="https://spotify-github-profile.kittinanx.com/api/view?uid=31lkmwj7oxs7si5ntnuxhaxklysi&redirect=true">
+  <img align="right" src="https://spotify-github-profile.kittinanx.com/api/view?uid=31lkmwj7oxs7si5ntnuxhaxklysi&cover_image=true&theme=default&show_offline=true&background_color=121212&interchange=true&profanity=true&bar_color_cover=true&bar_color=53b14f" alt="Spotify Now Playing" width="300" />
+</a>
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Focus-Scalable%20Backend%20Systems-00d4ff?style=flat-square&labelColor=0d1117" />
-  <img src="https://img.shields.io/badge/Loves-Clean%20Code%20%26%20Strong%20Coffee-bb86fc?style=flat-square&labelColor=0d1117" />
-  <img src="https://img.shields.io/badge/Goal-Zero%20Downtime-ff6b6b?style=flat-square&labelColor=0d1117" />
-</p>
+- 🔭 Building **production-grade systems** with **Go**
+- 🌱 Deep diving into **System Design & Cloud Architecture**
+- 💬 Ask me about **Go · APIs · Microservices · React**
+- 📫 Reach me at **[jeonghamin1909@gmail.com](mailto:jeonghamin1909@gmail.com)**
+- ⚡ Fun fact: I debug faster with ☕ in hand
 
-<table align="center">
-<tr>
-<td width="50%" valign="top">
-
-**🔭 Currently working on**
-> Production-grade systems with **Go**
-
-**🌱 Learning**
-> System Design & Cloud Architecture
-
-**💬 Ask me about**
-> Go · APIs · Microservices · React
-
-</td>
-<td width="50%" valign="top">
-
-**🎯 Expertise**
-> Backend · DevOps · Full-Stack
-
-**📫 Contact**
-> [jeonghamin1909@gmail.com](mailto:jeonghamin1909@gmail.com)
-
-**⚡ Fun fact**
-> I debug faster with ☕ in hand
-
-</td>
-</tr>
-</table>
-
-<br/>
+<br clear="both"/>
 
 ---
 
@@ -201,23 +170,6 @@
 
 ---
 
-<!-- ═══════════════════════════════════════════════════════════════════════ -->
-<!-- ░░░░░░░░░░░░░░░░░ SPOTIFY NOW PLAYING ░░░░░░░░░░░░░░░░░░░░░░░░░░░░ -->
-<!-- ═══════════════════════════════════════════════════════════════════════ -->
-
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=soft&color=0:00d4ff,100:bb86fc&height=40&section=header&text=NOW%20PLAYING&fontSize=16&fontColor=ffffff&fontAlignY=50" />
-</p>
-
-<p align="center">
-  <a href="https://spotify-github-profile.kittinanx.com/api/view?uid=31lkmwj7oxs7si5ntnuxhaxklysi&redirect=true">
-    <img src="https://spotify-github-profile.kittinanx.com/api/view?uid=31lkmwj7oxs7si5ntnuxhaxklysi&cover_image=true&theme=default&show_offline=true&background_color=121212&interchange=true&profanity=true&bar_color_cover=true&bar_color=53b14f" alt="Spotify Now Playing" />
-  </a>
-</p>
-
-<br/>
-
----
 
 <!-- ═══════════════════════════════════════════════════════════════════════ -->
 <!-- ░░░░░░░░░░░░░░░░░░░░░ METRICS ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ -->

@@ -259,11 +259,7 @@ const capy = {
 <!-- ═══════════════════════════════════════════════════════════════════════ -->
 
 <p align="center">
-  <b>Thanks for visiting! Have a wonderful day! 🎆 🎇 ✨</b>
-</p>
-
-<p align="center">
-  <img src="./assets/cats/fireworks.svg" width="700" alt="Fireworks" />
+  <b>Thanks for visiting! Have a purrfect day! 🐱</b>
 </p>
 
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:bb86fc,50:6366f1,100:00d4ff&height=150&section=footer" />

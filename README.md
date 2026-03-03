@@ -86,12 +86,6 @@ mantra: "Clean code, strong coffee, zero downtime"
   </a>
 </p>
 
-<p align="center">
-  <a href="https://github.com/jhm1909">
-    <img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=jhm1909&layout=donut-vertical&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00d4ff&text_color=c9d1d9&langs_count=8" alt="Top Languages" />
-  </a>
-</p>
-
 <br/>
 
 <!-- ═══════════════════════════════════════════ STREAK STATS ═══════════ -->

@@ -56,7 +56,7 @@ const capy = {
   </a>
 </p>
 
-<br clear="both"/>
+<br style="clear:both" />
 
 <p align="center">
   <img src="./assets/cats/cat-waving.svg" width="180" alt="Cat Waving" />
@@ -94,7 +94,8 @@ const capy = {
 
 <p align="center">
   <a href="https://github.com/jhm1909">
-    <img src="https://github-readme-stats-sigma-five.vercel.app/api?username=jhm1909&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00d4ff&icon_color=bb86fc&text_color=c9d1d9&ring_color=00d4ff&count_private=true&include_all_commits=true&cache_seconds=1800" alt="GitHub Stats" />
+    <img height="180" src="https://github-readme-stats-sigma-five.vercel.app/api?username=jhm1909&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00d4ff&icon_color=bb86fc&text_color=c9d1d9&ring_color=00d4ff&count_private=true&include_all_commits=true&cache_seconds=1800" alt="GitHub Stats" />
+    <img height="180" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=jhm1909&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00d4ff&text_color=c9d1d9&langs_count=10&cache_seconds=1800" alt="Top Languages" />
   </a>
 </p>
 
@@ -104,7 +105,7 @@ const capy = {
 
 <p align="center">
   <a href="https://github.com/jhm1909">
-    <img src="https://github-readme-streak-stats.herokuapp.com?user=jhm1909&theme=tokyonight&hide_border=true&background=0d1117&ring=00d4ff&fire=ff6b6b&currStreakLabel=00d4ff&sideLabels=bb86fc&currStreakNum=c9d1d9&sideNums=c9d1d9&dates=8b949e&cache_seconds=1800" alt="GitHub Streak" />
+    <img src="https://streak-stats.demolab.com?user=jhm1909&theme=tokyonight&hide_border=true&background=0d1117&ring=00d4ff&fire=ff6b6b&currStreakLabel=00d4ff&sideLabels=bb86fc&currStreakNum=c9d1d9&sideNums=c9d1d9&dates=8b949e&date_format=j%20M%5B%20Y%5D" alt="GitHub Streak" />
   </a>
 </p>
 
@@ -112,6 +113,7 @@ const capy = {
 
 <p align="center">
   <img src="./assets/cats/cat-playing-yarn.svg" width="180" alt="Cat Playing Yarn" />
+  <img src="./assets/plants/flower-patch.svg" width="180" alt="Flower Patch" />
 </p>
 
 <!-- ═══════════════════════════════════════════════════════════════════════ -->
@@ -124,7 +126,7 @@ const capy = {
 
 <p align="center">
   <a href="https://github.com/ryo-ma/github-profile-trophy">
-    <img src="https://github-trophies.vercel.app/?username=jhm1909&theme=tokyonight&no-frame=true&no-bg=true&column=7&margin-w=10&cache_seconds=1800" alt="GitHub Trophies" />
+    <img src="https://github-profile-trophy.vercel.app/?username=jhm1909&theme=tokyonight&no-frame=true&no-bg=true&column=7&margin-w=10&margin-h=10" alt="GitHub Trophies" />
   </a>
 </p>
 
@@ -151,7 +153,9 @@ const capy = {
 <br/>
 
 <p align="center">
+  <img src="./assets/plants/vine.svg" width="120" alt="Vine" />
   <img src="./assets/cats/cat-sitting-tree.svg" width="180" alt="Cat Sitting in Tree" />
+  <img src="./assets/plants/bush.svg" width="120" alt="Bush" />
 </p>
 
 <!-- ═══════════════════════════════════════════════════════════════════════ -->
@@ -174,6 +178,7 @@ const capy = {
 
 <p align="center">
   <img src="./assets/cats/cat-tower.svg" width="160" alt="Cat Tower" />
+  <img src="./assets/plants/potted-plant.svg" width="120" alt="Potted Plant" />
 </p>
 
 <!-- ═══════════════════════════════════════════════════════════════════════ -->
@@ -215,8 +220,6 @@ const capy = {
   <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=jhm1909&theme=tokyonight&cache_seconds=1800" alt="Stats" />
   <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=jhm1909&theme=tokyonight&utcOffset=9&cache_seconds=1800" alt="Productive Time" />
 </p>
-
-
 
 <br/>
 

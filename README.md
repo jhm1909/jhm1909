@@ -17,27 +17,6 @@
 </p>
 
 <!-- ═══════════════════════════════════════════════════════════════════════ -->
-<!-- ░░░░░░░░░░░░░░░░░░░░ PROFILE VIEWS ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ -->
-<!-- ═══════════════════════════════════════════════════════════════════════ -->
-
-<p align="center">
-  <a href="https://github.com/jhm1909">
-    <img src="https://komarev.com/ghpvc/?username=jhm1909&style=for-the-badge&color=00d4ff&label=PROFILE+VIEWS" alt="Profile Views" />
-  </a>
-  <a href="https://github.com/jhm1909?tab=followers">
-    <img src="https://img.shields.io/github/followers/jhm1909?style=for-the-badge&color=bb86fc&labelColor=0d1117&label=Followers" alt="Followers" />
-  </a>
-  <a href="https://github.com/jhm1909?tab=repositories">
-    <img src="https://img.shields.io/github/stars/jhm1909?style=for-the-badge&color=ff6b6b&labelColor=0d1117&label=Stars" alt="Stars" />
-  </a>
-  <a href="https://github.com/jhm1909?tab=repositories">
-    <img src="https://img.shields.io/badge/dynamic/json?style=for-the-badge&color=f1e05a&labelColor=0d1117&label=Public+Repos&query=%24.public_repos&url=https%3A%2F%2Fapi.github.com%2Fusers%2Fjhm1909" alt="Public Repos" />
-  </a>
-</p>
-
-<br/>
-
-<!-- ═══════════════════════════════════════════════════════════════════════ -->
 <!-- ░░░░░░░░░░░░░░░░░░░░░░ ABOUT ME ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ -->
 <!-- ═══════════════════════════════════════════════════════════════════════ -->
 

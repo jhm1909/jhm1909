@@ -125,15 +125,6 @@ const cappy = {
 
 <br/>
 
-<!-- ═══════════════════════════════════════════ STREAK STATS ═══════════ -->
-
-<p align="center">
-  <a href="https://github.com/jhm1909">
-    <img src="https://streak-stats.demolab.com?user=jhm1909&theme=tokyonight&hide_border=true&background=0d1117&ring=00d4ff&fire=ff6b6b&currStreakLabel=00d4ff&sideLabels=bb86fc&currStreakNum=c9d1d9&sideNums=c9d1d9&dates=8b949e&date_format=j%20M%5B%20Y%5D" alt="GitHub Streak" />
-  </a>
-</p>
-
-<br/>
 
 <p align="center">
   <img src="./assets/cats/cat-playing-yarn.svg" height="140" alt="Cat Playing Yarn" />

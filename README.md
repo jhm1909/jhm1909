@@ -126,12 +126,6 @@ const cappy = {
 <br/>
 
 
-<p align="center">
-  <img src="./assets/cats/cat-playing-yarn.svg" height="140" alt="Cat Playing Yarn" />
-  <img src="./assets/plants/flower-patch.svg" height="140" alt="Flower Patch" />
-  <img src="./assets/cats/cat-eating.svg" height="140" alt="Cat Eating" />
-</p>
-
 <!-- ═══════════════════════════════════════════════════════════════════════ -->
 <!-- ░░░░░░░░░░░░░░░░░░░░░ TROPHIES ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ -->
 <!-- ═══════════════════════════════════════════════════════════════════════ -->

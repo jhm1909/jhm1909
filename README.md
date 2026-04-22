@@ -169,8 +169,6 @@ const cappy = {
 </p>
 
 <p align="center">
-  <img src="./assets/cats/cat-tower.svg" height="160" alt="Cat Tower" />
-  <img src="./assets/plants/potted-plant.svg" height="160" alt="Potted Plant" />
   <img src="./assets/cats/cat-sleeping.svg" height="160" alt="Cat Sleeping" />
 </p>
 

@@ -24,6 +24,10 @@
   <img src="./assets/cats/header-about.svg" width="700" alt="About Me" />
 </p>
 
+<p align="center">
+  <img src="./assets/cats/cat-waving.svg" width="160" alt="Cat Waving" />
+</p>
+
 <table align="center">
   <tr>
     <td>
@@ -49,10 +53,6 @@ const cappy = {
   <a href="mailto:jeonghamin1909@gmail.com">
     <img src="https://img.shields.io/badge/Let's_Talk-jeonghamin1909%40gmail.com-D14836?style=flat-square&logo=gmail&logoColor=white&labelColor=0d1117" alt="Email" />
   </a>
-</p>
-
-<p align="center">
-  <img src="./assets/cats/cat-waving.svg" width="180" alt="Cat Waving" />
 </p>
 
 <!-- ═══════════════════════════════════════════════════════════════════════ -->

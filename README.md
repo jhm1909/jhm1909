@@ -143,41 +143,6 @@ const cappy = {
 <br/>
 
 <!-- ═══════════════════════════════════════════════════════════════════════ -->
-<!-- ░░░░░░░░░░░░░░░░░░░░░ METRICS ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ -->
-<!-- ═══════════════════════════════════════════════════════════════════════ -->
-
-<p align="center">
-  <img src="./assets/cats/header-metrics.svg" width="700" alt="Detailed Metrics" />
-</p>
-
-<p align="center">
-  <a href="https://github.com/jhm1909">
-    <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=jhm1909&theme=tokyonight" alt="Profile Details" />
-  </a>
-</p>
-
-<table align="center">
-  <tr>
-    <td>
-      <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=jhm1909&theme=tokyonight" alt="Repos per Language" />
-    </td>
-    <td>
-      <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=jhm1909&theme=tokyonight" alt="Most Commit Language" />
-    </td>
-  </tr>
-  <tr>
-    <td>
-      <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=jhm1909&theme=tokyonight" alt="Stats" />
-    </td>
-    <td>
-      <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=jhm1909&theme=tokyonight&utcOffset=9" alt="Productive Time" />
-    </td>
-  </tr>
-</table>
-
-<br/>
-
-<!-- ═══════════════════════════════════════════════════════════════════════ -->
 <!-- ░░░░░░░░░░░░░░░░░░░░░ CONNECT ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ -->
 <!-- ═══════════════════════════════════════════════════════════════════════ -->
 

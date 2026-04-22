@@ -127,25 +127,6 @@ const cappy = {
 
 
 <!-- ═══════════════════════════════════════════════════════════════════════ -->
-<!-- ░░░░░░░░░░░░░░░░░░░░ SNAKE GRAPH ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ -->
-<!-- ═══════════════════════════════════════════════════════════════════════ -->
-
-<p align="center">
-  <img src="./assets/cats/header-snake.svg" width="700" alt="Contribution Snake" />
-</p>
-
-<p align="center">
-  <a href="https://github.com/jhm1909">
-    <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/jhm1909/jhm1909/output/github-snake-dark.svg" />
-      <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/jhm1909/jhm1909/output/github-snake.svg" />
-      <img alt="GitHub Contribution Snake" src="https://raw.githubusercontent.com/jhm1909/jhm1909/output/github-snake-dark.svg" />
-    </picture>
-  </a>
-</p>
-
-
-<!-- ═══════════════════════════════════════════════════════════════════════ -->
 <!-- ░░░░░░░░░░░░░░░░░░ 3D CONTRIBUTION ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ -->
 <!-- ═══════════════════════════════════════════════════════════════════════ -->
 

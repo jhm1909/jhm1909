@@ -178,8 +178,4 @@ const cappy = {
 <!-- ░░░░░░░░░░░░░░░░░░░░░░ FOOTER ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ -->
 <!-- ═══════════════════════════════════════════════════════════════════════ -->
 
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=16&duration=4000&pause=1000&color=BB86FC&center=true&vCenter=true&width=600&height=40&lines=Thanks+for+visiting!+%F0%9F%90%B1;Have+a+purrfect+day!;Let's+build+something+amazing+together" alt="Thanks Typing" />
-</p>
-
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:bb86fc,50:6366f1,100:00d4ff&height=150&section=footer&text=See%20you%20around!&fontSize=20&fontColor=ffffff&fontAlignY=70&animation=fadeIn" />

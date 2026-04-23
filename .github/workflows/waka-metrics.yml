@@ -20,7 +20,7 @@ jobs:
     name: Generate WakaTime SVG via lowlighter/metrics
     steps:
       - name: Generate WakaTime SVG
-        uses: lowlighter/metrics@v4
+        uses: lowlighter/metrics@latest
         with:
           token: ${{ secrets.GH_PAT }}
           user: jhm1909

@@ -37,7 +37,7 @@ jobs:
           SHOW_LOC_CHART: "False"
           SHOW_PROFILE_VIEWS: "False"
           SHOW_COMMIT: "False"
-          SHOW_SHORT_INFO: "True"
+          SHOW_SHORT_INFO: "False"
           SHOW_TOTAL_CODE_TIME: "True"
           COMMIT_MESSAGE: "chore: update WakaTime stats"
           LOCALE: "en"

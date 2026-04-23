@@ -28,8 +28,9 @@ jobs:
 
       - name: Update README with recent GitHub activity
         uses: jamesgeorge007/github-activity-readme@master
-        with:
+        env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
           COMMIT_NAME: github-actions[bot]
           COMMIT_EMAIL: github-actions[bot]@users.noreply.github.com
           COMMIT_MSG: "chore: update recent activity"

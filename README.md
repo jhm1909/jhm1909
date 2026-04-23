@@ -171,9 +171,9 @@ const cappy = {
 <!-- ░░░░░░░░░░░░░░░░░ RECENT ACTIVITY ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ -->
 <!-- ═══════════════════════════════════════════════════════════════════════ -->
 
-<h3 align="center">💻 Recent Activity</h3>
-
-<p align="center"><i>Auto-updated every 6 hours via GitHub Actions</i></p>
+<p align="center">
+  <img src="./assets/cats/header-activity.svg" width="700" alt="Recent Activity" />
+</p>
 
 <!--START_SECTION:activity-->
 1. 🎉 Merged PR [#1](https://github.com/jhm1909/agent-flow-kit/pull/1) in [jhm1909/agent-flow-kit](https://github.com/jhm1909/agent-flow-kit)

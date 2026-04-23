@@ -148,6 +148,55 @@ const cappy = {
 <br/>
 
 <!--START_SECTION:waka-->
+![Code Time](http://img.shields.io/badge/Code%20Time-1%20hr%207%20mins-blue?style=flat)
+
+**🐱 My GitHub Data** 
+
+> 📦 137.5 kB Used in GitHub's Storage 
+ > 
+> 🏆 3,427 Contributions in the Year 2026
+ > 
+> 🚫 Not Opted to Hire
+ > 
+> 📜 6 Public Repositories 
+ > 
+> 🔑 5 Private Repositories 
+ > 
+📅 **I'm Most Productive on Wednesday** 
+
+```text
+Monday                   61 commits          ██░░░░░░░░░░░░░░░░░░░░░░░   09.97 % 
+Tuesday                  131 commits         █████░░░░░░░░░░░░░░░░░░░░   21.41 % 
+Wednesday                221 commits         █████████░░░░░░░░░░░░░░░░   36.11 % 
+Thursday                 45 commits          ██░░░░░░░░░░░░░░░░░░░░░░░   07.35 % 
+Friday                   58 commits          ██░░░░░░░░░░░░░░░░░░░░░░░   09.48 % 
+Saturday                 11 commits          ░░░░░░░░░░░░░░░░░░░░░░░░░   01.80 % 
+Sunday                   85 commits          ███░░░░░░░░░░░░░░░░░░░░░░   13.89 % 
+```
+
+
+📊 **This Week I Spent My Time On** 
+
+```text
+🕑︎ Time Zone: Asia/Seoul
+
+💬 Programming Languages: 
+Markdown                 50 mins             █████████████████████████   100.00 % 
+
+🔥 Editors: 
+Unknown Editor           50 mins             █████████████████████████   100.00 % 
+
+🐱‍💻 Projects: 
+Unknown Project          22 mins             ███████████░░░░░░░░░░░░░░   45.02 % 
+jhm1909                  17 mins             █████████░░░░░░░░░░░░░░░░   34.63 % 
+life                     10 mins             █████░░░░░░░░░░░░░░░░░░░░   20.35 % 
+
+💻 Operating System: 
+Windows                  50 mins             █████████████████████████   100.00 % 
+```
+
+
+ Last Updated on 23/04/2026 15:39:39 UTC
 <!--END_SECTION:waka-->
 
 <br/>
